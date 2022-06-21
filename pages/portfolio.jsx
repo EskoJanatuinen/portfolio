@@ -24,7 +24,6 @@ const portfolio = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
           <h2>Overview</h2>
           <p className='mt-4'>
             Coming soon...
