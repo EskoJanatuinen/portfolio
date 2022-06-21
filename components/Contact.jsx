@@ -35,7 +35,7 @@ const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div className='rounded-xl hover:scale-105 ease-in duration-300'>
-                <Image className='rounded-xl'
+                <Image className='rounded-lg'
                   src={ContactImg}
                   alt='/'
                 />

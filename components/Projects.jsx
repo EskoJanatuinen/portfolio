@@ -1,12 +1,12 @@
 import React from 'react';
-import webstore from '../public/assets/Projects/webstore2.png'
-import productsWizard from '../public/assets/Projects/NewProducts.png'
-import inventoryTool from '../public/assets/Projects/inventoryTool.png'
-import isbnTool from '../public/assets/Projects/ISBN_img.png'
-import invoiceReports from '../public/assets/Projects/Invoices.png'
-import portfolio from '../public/assets/Projects/portfolio.png'
-import learning from '../public/assets/Projects/Learning.png'
-import circuit from '../public/assets/Projects/Circuit.png'
+import webstore from '../public/assets/projects/webstore2.png'
+import productsWizard from '../public/assets/projects/NewProducts.png'
+import inventoryTool from '../public/assets/projects/inventoryTool.png'
+import isbnTool from '../public/assets/projects/ISBN_img.png'
+import invoiceReports from '../public/assets/projects/Invoices.png'
+import portfolio from '../public/assets/projects/portfolio.png'
+import learning from '../public/assets/projects/Learning.png'
+import circuit from '../public/assets/projects/Circuit.png'
 import ProjectItem from './project_item';
 
 
