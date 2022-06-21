@@ -7,7 +7,7 @@ import invoiceReports from '../public/assets/Projects/Invoices.png'
 import portfolio from '../public/assets/Projects/portfolio.png'
 import learning from '../public/assets/Projects/Learning.png'
 import circuit from '../public/assets/Projects/Circuit.png'
-import ProjectItem from './ProjectItem';
+import ProjectItem from './project_item';
 
 
 

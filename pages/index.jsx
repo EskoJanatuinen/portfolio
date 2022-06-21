@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Main from '../components/Main'
-import About from '../components/About'
-import Skills from '../components/Skills'
-import Footer from '../components/Footer'
-import Projects from '../components/Projects'
-import Contact from '../components/Contact'
+import Main from '../components/main'
+import About from '../components/about'
+import Skills from '../components/skills'
+import Footer from '../components/footer'
+import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 
 export default function Home() {
