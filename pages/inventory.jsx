@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import inventoryTool from '../public/assets/Projects/inventoryTool.png';
+import inventoryTool from '../public/assets/projects/inventoryTool.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
