@@ -34,6 +34,7 @@ const ecommerce_platform = () => {
           <a
             href='https://kauppa.kierratyskeskus.fi/'
             target='_blank'
+            rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Website</button>
           </a>
