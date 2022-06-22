@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import productsWizard from '../public/assets/projects/NewProducts_large.png';
+import productsWizard from '../public/assets/projects/newProducts_large.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

@@ -4,7 +4,7 @@ import productsWizard from '../public/assets/projects/NewProducts.png'
 import inventoryTool from '../public/assets/projects/inventoryTool.png'
 import isbnTool from '../public/assets/projects/ISBN_img.png'
 import invoiceReports from '../public/assets/projects/Invoices.png'
-import portfolio from '../public/assets/projects/portfolio.png'
+import portfolio from '../public/assets/projects/Portfolio.png'
 import learning from '../public/assets/projects/Learning.png'
 import circuit from '../public/assets/projects/Circuit.png'
 import ProjectItem from './project_item';
