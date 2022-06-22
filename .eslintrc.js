@@ -1,14 +1,10 @@
 module.exports = {
-    "settings": {
-        "react": {"version": "detect"
-    },
     "env": {
         "browser": true,
         "es2021": true
     },
     "extends": [
         "eslint:recommended", 
-        "next",
         "plugin:react/recommended",
         "plugin:react/jsx-runtime"
     ],
