@@ -9,7 +9,7 @@ import Magento from '../public/assets/skills/magento.png';
 import Java from '../public/assets/skills/Java.png';
 import PowerBI from '../public/assets/skills/PowerBI.png';
 import Python from '../public/assets/skills/Python.png';
-import SQL from '../public/assets/skills/Sql.png';
+import SQL from '../public/assets/skills/SQL.png';
 import Google_seo from '../public/assets/skills/Google_seo.png';
 import Google_analytics from '../public/assets/skills/Google_analytics.png';
 
