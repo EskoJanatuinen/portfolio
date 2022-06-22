@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Main from '../components/main'
 import About from '../components/about'
-import Skills from '../components/Skills'
+import Skills from '../components/skills'
 import Footer from '../components/footer'
 import Projects from '../components/projects'
 {/* import Contact from '../components/contact' */}
