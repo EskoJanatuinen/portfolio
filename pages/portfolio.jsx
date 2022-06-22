@@ -29,7 +29,7 @@ const portfolio = () => {
             Coming soon...
           </p>
           <p className='my-4'>
-            Coming soon...
+            Coming soon
           </p>
           <a
             href='https://github.com/EskoJanatuinen/'
