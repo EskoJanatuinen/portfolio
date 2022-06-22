@@ -34,7 +34,7 @@ const invoices = () => {
           <a
             href='https://github.com/EskoJanatuinen/invoice_reports'
             target='_blank'
-            rel='noreferrer'
+            rel='noreferrer noopener'
           >
             <button className='px-8 py-2 mt-4'>Code</button>
           </a>

@@ -33,14 +33,14 @@ const learning_environment = () => {
           <a
             href='https://www.youtube.com/watch?v=VgW7Z_pyD5U'
             target='_blank'
-            rel='noreferrer'
+            rel='noreferrer noopener'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Video</button>
           </a>
           <a
             href='https://www.liveopisto.fi/ajankohtaista/kierratyskeskuksessa-liven-oppimisymparisto'
             target='_blank'
-            rel='noreferrer'
+            rel='noreferrer noopener'
           >
             <button className='px-8 py-2 mt-4'>Media</button>
           </a>

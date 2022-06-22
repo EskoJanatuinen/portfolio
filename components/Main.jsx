@@ -21,6 +21,7 @@ const Main = () => {
             <a className='cursor-pointer hover:scale-110 text-blue-500'
               href='https://kauppa.kierratyskeskus.fi/'
               target='_blank'
+              rel='noreferrer noopener'
             > online store </a> 
               with my team. I strive to combine all my knowledge in digital sales, UI/UX design, logistics and (last but not least) 
               human behavior to create the best possible customer experience online. I love data and like to play with it! 
@@ -30,7 +31,7 @@ const Main = () => {
             <a
               href='https://www.linkedin.com/in/esko-janatuinen/'
               target='_blank'
-              rel="noreferrer"
+              rel='noreferrer noopener'
             >
               <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />

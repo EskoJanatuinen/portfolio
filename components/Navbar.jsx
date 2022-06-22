@@ -159,6 +159,7 @@ const Navbar = () => {
                             <a
                                 href='https://www.linkedin.com/in/esko-janatuinen/'
                                 target='_blank'
+                                rel='noreferrer noopener'
                             >
                             <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <FaLinkedinIn />
@@ -167,7 +168,7 @@ const Navbar = () => {
                             <a
                                 href='https://github.com/EskoJanatuinen'
                                 target='_blank'
-                                rel='noreferrer'
+                                rel='noreferrer noopener'
                             >
                             <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <FaGithub />

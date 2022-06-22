@@ -34,7 +34,7 @@ const portfolio = () => {
           <a
             href='https://github.com/EskoJanatuinen/'
             target='_blank'
-            rel='noreferrer'
+            rrel='noreferrer noopener'
           >
             <button className='px-8 py-2 mt-4'>Code</button>
           </a>
