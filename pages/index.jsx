@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Main from '../components/main'
 import About from '../components/about'
-import Skills from '../components/skills'
+import Skills from '../components/Skills'
 import Footer from '../components/footer'
 import Projects from '../components/projects'
-import Contact from '../components/contact'
+{/* import Contact from '../components/contact' */}
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
     <About />
     <Skills />
     <Projects />
-    <Contact />
+    {/* <Contact /> */}
     <Footer />
     </div>
   )
