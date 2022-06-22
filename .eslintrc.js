@@ -4,7 +4,8 @@ module.exports = {
         "es2021": true
     },
     "extends": [
-        "eslint:recommended",
+        "eslint:recommended", 
+        "next",
         "plugin:react/recommended",
         "plugin:react/jsx-runtime"
     ],
