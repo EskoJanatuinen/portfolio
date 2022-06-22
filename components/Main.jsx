@@ -37,7 +37,9 @@ const Main = () => {
                 <FaLinkedinIn />
               </div>
             </a>
-            <a href='https://github.com/EskoJanatuinen' target='_blank' rel="noreferrer">
+            <a 
+              href='https://github.com/EskoJanatuinen' 
+              target='_blank' rel="noreferrer">
               <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>

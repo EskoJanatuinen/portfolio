@@ -53,6 +53,7 @@ const Contact = () => {
                   <a
                     href='https://www.linkedin.com/in/esko-janatuinen/'
                     target='_blank'
+                    rel='noreferrer noopener'
                   >
                     <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
@@ -61,6 +62,7 @@ const Contact = () => {
                   <a
                     href='https://github.com/EskoJanatuinen'
                     target='_blank'
+                    rel='noreferrer noopener'
                   >
                     <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
