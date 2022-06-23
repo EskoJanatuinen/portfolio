@@ -111,7 +111,7 @@ const Navbar = () => {
             }
         >
             <div>
-                <div className='flex w-full items-center justify-between -my-6'>
+                <div className='flex w-full items-center justify-between -my-6 -ml-4'>
                     <Image src={logo_b} width='180' height='60' alt='/' />
                     <div
                         onClick={handleNav}
