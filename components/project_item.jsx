@@ -8,7 +8,7 @@ const ProjectItem = ({title, backgroundImg, info, projectUrl}) => {
     <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/' /> 
     <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
         <h3 className='text-base md:text-2xl text-white tracking-wider text-center'>{title}</h3>
-        <p className='pb-4 pt-2 text-base md:text-sm text-white text-center'>{info}</p>
+        <p className='pb-4 pt:1 md:pt-2 text-sm md:text-base text-white text-center'>{info}</p>
         <Link href={projectUrl}>
             <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Info</p>
         </Link>
