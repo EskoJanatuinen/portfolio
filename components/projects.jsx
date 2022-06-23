@@ -19,7 +19,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-8'>
+        <div className='select-none grid grid-cols-2 md:grid-cols-4 gap-8'>
           
           <ProjectItem
             title='eCommerce Platform'
@@ -57,7 +57,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='Learning Environment for Students'
+            title='Learning Environment'
             backgroundImg={learning}
             projectUrl='/learning_environment'
             info=''
@@ -74,7 +74,7 @@ const Projects = () => {
             title='Portfolio Website'
             backgroundImg={portfolio}
             projectUrl='/portfolio'
-            info='Next.js, Tailwind'
+            info='Next.js'
           />
 
         </div>
