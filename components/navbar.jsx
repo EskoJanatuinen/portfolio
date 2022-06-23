@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import logo_b from '../public/assets/Esko_b_540x180.png';
 import logo_w from '../public/assets/Esko_w_540x180.png';
+import logo_b_small from '../public/assets/Esko_b_540x180.png';
 
 
 const Navbar = () => {
@@ -111,7 +112,8 @@ const Navbar = () => {
             }
         >
             <div>
-                <div className='flex w-full items-center justify-end -my-4'>
+                <div className='flex w-full items-center justify-between -my-6'>
+                    <Image src='/../public/assets/Esko_b_540x180.png' width='180' height='60' alt='/' />
                     <div
                         onClick={handleNav}
                         className='rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer'
