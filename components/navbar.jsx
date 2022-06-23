@@ -115,7 +115,7 @@ const Navbar = () => {
                     <Image src={logo_b} width='180' height='60' alt='/' />
                     <div
                         onClick={handleNav}
-                        className='rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer'
+                        className='-mr-4 rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer'
                     >
                         <AiOutlineClose />
                     </div>
