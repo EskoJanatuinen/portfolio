@@ -6,7 +6,6 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import logo_b from '../public/assets/Esko_b_540x180.png';
 import logo_w from '../public/assets/Esko_w_540x180.png';
-import logo_b_small from '../public/assets/Esko_b_540x180.png';
 
 
 const Navbar = () => {
