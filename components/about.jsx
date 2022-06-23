@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link'
+import esko from '../public/assets/Esko_Janatuinen.jpg'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-6 sm:p-0 flex items-center py-16'> {/*p-8 sm:p-0 LAITA TÄÄMÄ MUIHIN OSIOIHIN MYÖS! */}
+    <div id='about' className='w-full md:h-screen p-6 sm:p-0 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2 py-4'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
@@ -38,7 +39,7 @@ const About = () => {
         </div>
         <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
 
-          <Image className='rounded-xl' src='/../public/assets/Esko_Janatuinen.jpg' width='670' height='1000' alt='/' />
+          <Image className='rounded-xl' src={esko} alt='/' />
         </div>
       </div>
     </div>
