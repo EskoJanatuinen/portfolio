@@ -46,7 +46,7 @@ const Projects = () => {
             title='ISBN Tool'
             backgroundImg={isbnTool}
             projectUrl='/isbn'
-            info='Python, SQLite'
+            info='Python, SQL'
           />
 
           <ProjectItem
@@ -71,7 +71,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='Portfolio Website'
+            title='Portfolio'
             backgroundImg={portfolio}
             projectUrl='/portfolio'
             info='Next.js'
