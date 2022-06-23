@@ -57,7 +57,7 @@ const Navbar = () => {
         style={{ backgroundColor: `${navBg}` }}
         className={
             shadow
-            ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
+            ? 'fixed w-full h-20 shadow-lg z-[100] ease-in-out duration-300'
             : 'fixed w-full h-20 z-[100]'
         }
     >
@@ -115,7 +115,7 @@ const Navbar = () => {
                     <Image src={logo_b} width='180' height='60' alt='/' />
                     <div
                         onClick={handleNav}
-                        className='-mr-4 rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer'
+                        className='-mr-8 rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer'
                     >
                         <AiOutlineClose />
                     </div>
