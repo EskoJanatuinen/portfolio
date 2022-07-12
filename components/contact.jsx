@@ -35,10 +35,15 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
+                  <a
+                    href="mailto:esko.janatuinen@gmail.com"
+                    target='_blank'
+                    rel='noreferrer noopener'
+                  >
+                    <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                    </a>
                 </div>
 
 
