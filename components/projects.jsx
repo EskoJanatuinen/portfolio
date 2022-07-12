@@ -4,7 +4,6 @@ import productsWizard from '../public/assets/projects/NewProducts.png'
 import inventoryTool from '../public/assets/projects/inventoryTool.png'
 import isbnTool from '../public/assets/projects/ISBN_img.png'
 import invoiceReports from '../public/assets/projects/Invoices.png'
-import learning from '../public/assets/projects/Learning.png'
 import circuit from '../public/assets/projects/Circuit.png'
 import ProjectItem from './project_item';
 
@@ -53,13 +52,6 @@ const Projects = () => {
             backgroundImg={invoiceReports}
             projectUrl='/invoices'
             info='Python'
-          />
-
-          <ProjectItem
-            title='Learning Environment'
-            backgroundImg={learning}
-            projectUrl='/learning_environment'
-            info=''
           />
 
           <ProjectItem
