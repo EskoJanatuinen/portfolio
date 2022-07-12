@@ -17,15 +17,15 @@ const Main = () => {
           
           <div className='py-2 text-gray-700'>An eCommerce Professional</div></h1>
           <p className='p-6 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m running and developing a neat, eco-friendly and fast-growing 
-            <a className='cursor-pointer hover:scale-110 text-blue-500'
+            I’m running and developing a neat, eco-friendly and fast-growing&nbsp;
+            <a className='cursor-pointer underline'
               href='https://kauppa.kierratyskeskus.fi/'
               target='_blank'
               rel='noreferrer noopener'
-            > online store </a> 
-              with my team. I strive to combine all my knowledge in digital sales, UI/UX design, logistics and (last but not least) 
+            >online store</a> 
+              &nbsp;with my team. I strive to combine all my knowledge in digital sales, UI/UX design, logistics and (last but not least) 
               human behavior to create the best possible customer experience online. I love data and like to play with it! 
-              My play tools include e.g. Python, JavaScript, SQL, GraphQL, PowerBI, and a curious mind with the ability to wonder. 🌹
+              My play tools include e.g. Python, SQL, GraphQL, PowerBI, and a curious mind with the ability to wonder. 🌹
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

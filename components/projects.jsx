@@ -4,7 +4,6 @@ import productsWizard from '../public/assets/projects/NewProducts.png'
 import inventoryTool from '../public/assets/projects/inventoryTool.png'
 import isbnTool from '../public/assets/projects/ISBN_img.png'
 import invoiceReports from '../public/assets/projects/Invoices.png'
-import portfolio from '../public/assets/projects/Portfolio.png'
 import learning from '../public/assets/projects/Learning.png'
 import circuit from '../public/assets/projects/Circuit.png'
 import ProjectItem from './project_item';
@@ -18,7 +17,7 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
         </p>
-        <h2 className='py-4'>What I&apos;ve Built</h2>
+        <h2 className='py-4'>That I&apos;ve worked on</h2>
         <div className='select-none grid grid-cols-2 md:grid-cols-4 gap-8'>
           
           <ProjectItem
@@ -68,13 +67,6 @@ const Projects = () => {
             backgroundImg={circuit}
             projectUrl='/circuit'
             info=''
-          />
-
-          <ProjectItem
-            title='Portfolio'
-            backgroundImg={portfolio}
-            projectUrl='/portfolio'
-            info='Next.js'
           />
 
         </div>

@@ -14,14 +14,12 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
-    setName('Name');
-    setPhone('Phone');
-    setEmail('Email');
-    setSubject('Subject');
-    setMessage('Message');
+    setName('');
+    setPhone('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
   };
-
-
 
   return (
     <div id='contact' className='w-full lg:h-screen pt-10 px-6'>

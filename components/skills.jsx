@@ -3,10 +3,7 @@ import React from 'react';
 import Html from '../public/assets/skills/html.png';
 import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
-import Tailwind from '../public/assets/skills/tailwind.png';
-import Github from '../public/assets/skills/github1.png';
 import Magento from '../public/assets/skills/magento.png';
-import Java from '../public/assets/skills/Java.png';
 import PowerBI from '../public/assets/skills/PowerBI.png';
 import Python from '../public/assets/skills/Python.png';
 import SQL from '../public/assets/skills/SQL.png';
@@ -87,16 +84,6 @@ const Skills = () => {
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Java} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Java</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -121,26 +108,6 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Tailwind} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Tailwind CSS</h3>
-              </div>
-            </div>
-          </div>
-          <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src={Github} width='64px' height='64px' alt='/' />
-              </div>
-              <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
               </div>
             </div>
           </div>
