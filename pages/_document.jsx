@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class CustomDocument extends Document {
     render() {
-        return <Html>
+        return <Html lang="en">
             <Head>
                 <link rel='icon' href='/favicon/favicon.ico' />
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon//apple-touch-icon.png" />
