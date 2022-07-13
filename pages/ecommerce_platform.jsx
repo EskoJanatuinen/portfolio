@@ -6,10 +6,10 @@ import webstore from '../public/assets/projects/webstore2.png'
 const ecommerce_platform = () => {
   return (
     <div id='test' className='w-full md:h-screen p-6 py-16'>
-        <div class="min-h-screen flex items-center justify-center">
-            <div class="md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]">
-                <div class="col-span-2 pt-10 md:pt-16 px-6 md:pb-14"><h1 className='py-4'>New eCommerce platform</h1></div>
-                <div class="p-6">
+        <div className="min-h-screen flex items-center justify-center">
+            <div className="md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]">
+                <div className="col-span-2 pt-10 md:pt-16 px-6 md:pb-14"><h1 className='py-4'>New eCommerce platform</h1></div>
+                <div className="p-6">
                     <h2 className='md:pt-10'>Introduction</h2>
                     <p className='py-8 text-gray-600'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -20,12 +20,12 @@ const ecommerce_platform = () => {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
+                <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                         <Image src={webstore} className='rounded-lg md:rounded-full' alt='Webshop front page' title='Kierrätyskeskus online store' />
                     </div>
                 </div>
-                <div class="col-span-2 p-6 md:-mt-16">
+                <div className="col-span-2 p-6 md:-mt-16">
                 <h2 className='py-4'>The Project</h2>
                     <p className='py-4 text-gray-600'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -52,7 +52,7 @@ const ecommerce_platform = () => {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
-                <div class="col-span-2 p-6">
+                <div className="col-span-2 p-6">
                 <h2 className='pb-4'>Project review</h2>
                     <p className='py-4 text-gray-600'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
