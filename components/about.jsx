@@ -32,7 +32,7 @@ const About = () => {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+            <p className='py-2 text-gray-600 underline cursor-pointer hover:animate-pulse'>
               Check out some of my projects.
             </p>
           </Link>

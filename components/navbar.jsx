@@ -63,26 +63,26 @@ const Navbar = () => {
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-12'>
             <Link href='/'>
                 <a>
-                    <div className='mt-2'>
+                    <div className='mt-2 hover:animate-pulse'>
                         <Image src={logo} alt='/' width='180' height='60' />
             </div>
             </a>
             </Link>
         <div>
             <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>
+                <li className='ml-10 text-sm uppercase hover:animate-pulse'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='ml-10 text-sm uppercase hover:border-b'>
+                <li className='ml-10 text-sm uppercase hover:animate-pulse'>
                     <Link href='/#about'>About</Link>
                 </li>
-                <li className='ml-10 text-sm uppercase hover:border-b'>
+                <li className='ml-10 text-sm uppercase hover:animate-pulse'>
                     <Link href='/#skills'>Skills</Link>
                 </li>
-                <li className='ml-10 text-sm uppercase hover:border-b'>
+                <li className='ml-10 text-sm uppercase hover:animate-pulse'>
                     <Link href='/#projects'>Projects</Link>
                 </li>
-                <li className='mr-4 ml-10 text-sm uppercase hover:border-b'>
+                <li className='mr-4 ml-10 text-sm uppercase hover:animate-pulse'>
                     <Link href='/#contact'>Contact</Link>
                 </li>
             </ul>
