@@ -18,7 +18,6 @@ const Navbar = () => {
 
   useEffect(() => {
     if (
-      router.asPath === '/ecommerce_platform' ||
       router.asPath === '/products_wizard' ||
       router.asPath === '/inventory' ||
       router.asPath === '/isbn' ||
