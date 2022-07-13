@@ -53,7 +53,7 @@ const ecommerce_platform = () => {
                     </p>
                 </div>
                 <div className="col-span-2 p-6">
-                <h2 className='pb-4'>Project review</h2>
+                  <h2 className='pb-4'>Project review</h2>
                     <p className='py-4 text-gray-600'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -62,13 +62,11 @@ const ecommerce_platform = () => {
                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                     culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <div>
-                        <Link href='/#projects'>
-                            <p className='pt-14 underline cursor-pointer'>Back</p>
-                        </Link>
-                    </div>
+                    <Link href='/#projects'>
+                      <button className='lowercase underline cursor-pointer'>Back</button>
+                      
+                    </Link>
                 </div>
-
             </div>
         </div>
     </div>
