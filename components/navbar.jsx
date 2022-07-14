@@ -3,17 +3,13 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { useRouter } from 'next/router';
+
 import logo_b from '../public/assets/Esko_b_540x180.png';
 
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
-  const router = useRouter();
-  const [logo, setLogoColor] = useState(logo_b);
 
     const handleNav = () => {
         setNav(!nav);  {/* !nav will toggle the value true/false when function is called */}
@@ -32,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div
-        style={{ backgroundColor: `${navBg}` }}
+        style={{ backgroundColor: '#ecf0f3' }}
         className={
             shadow
             ? 'fixed w-full h-20 shadow-lg z-[100] ease-in-out duration-300'
@@ -43,12 +39,12 @@ const Navbar = () => {
             <Link href='/'>
                 <a>
                     <div className='mt-2 hover:animate-pulse'>
-                        <Image src={logo} alt='/' width='180' height='60' />
+                        <Image src={logo_b} alt='/' width='180' height='60' />
             </div>
             </a>
             </Link>
         <div>
-            <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+            <ul style={{ color: '#1f2937' }} className='hidden md:flex'>
                 <li className='ml-10 text-sm uppercase hover:animate-pulse'>
                     <Link href='/'>Home</Link>
                 </li>
@@ -66,7 +62,7 @@ const Navbar = () => {
                 </li>
             </ul>
             <div
-                style={{ color: `${linkColor}` }}
+                style={{ color: '#1f2937' }}
                 onClick={handleNav}
                 className='md:hidden mr-2'
             >
