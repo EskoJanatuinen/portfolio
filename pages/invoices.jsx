@@ -1,67 +1,77 @@
 import Image from 'next/image';
 import React from 'react';
 import invoices_img from '../public/assets/projects/Invoices.png';
-import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+
 
 const invoices = () => {
   return (
-    <div className='w-full'>
-      <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image
-          className='absolute z-1'
-          layout='fill'
-          objectFit='cover'
-          src={invoices_img}
-          alt='/'
-        />
-        <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Invoices Script</h2>
-          <h3>Automated processing for our logistics providers invoices</h3>
-        </div>
-      </div>
+    <div id='test' className='w-full md:h-screen p-6 py-16'>
+        <div className="min-h-screen flex items-center justify-center">
+            <div className="md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]">
+                <div className="col-span-2 pt-10 md:pt-16 px-6 md:pb-14"><h1 className='py-4'>Invoices script</h1></div>
+                <div className="p-6">
+                    <h2 className='md:pt-10'>Introduction</h2>
+                    <p className='py-8 text-gray-600'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-        <div className='col-span-4'>
-          <h2>Overview</h2>
-          <p className='mt-4'>
-            Coming soon...
-          </p>
-          <p className='my-4'>
-            Coming soon...
-          </p>
-          <a
-            href='https://github.com/EskoJanatuinen/invoice_reports'
-            target='_blank'
-            rel='noreferrer noopener'
-          >
-            <button className='px-8 py-2 mt-4'>Code</button>
-          </a>
-        </div>
-        <div className='col-span-4 md:col-span-1 shadow-lg shadow-gray-400 rounded-xl p-4'>
-          <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Summary</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
-              </p>
+                <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
+                    <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl  md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                        <a href='https://github.com/EskoJanatuinen/invoice_reports' target='_blank' rel='noreferrer noopener'>
+                          <Image src={invoices_img} className='rounded-lg md:rounded-full' alt='Invoices logo' title='A script for processing invoices' />
+                        </a>
+                    </div>
+                </div>
+                <div className="col-span-2 p-6 md:-mt-16">
+                <h2 className='py-4'>The Project</h2>
+                    <p className='py-4 text-gray-600'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p className='text-gray-600'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p className='pt-4 text-gray-600'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div className="col-span-2 p-6">
+                  <h2 className='pb-4'>Project review</h2>
+                    <p className='py-4 text-gray-600'>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <Link href='/#projects'>
+                      <button className='underline cursor-pointer hover:animate-pulse'>back</button>
+                    </Link>
+                </div>
             </div>
-          </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
-      </div>
     </div>
   );
 };

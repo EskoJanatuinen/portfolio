@@ -5,7 +5,6 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import logo_b from '../public/assets/Esko_b_540x180.png';
-import logo_w from '../public/assets/Esko_w_540x180.png';
 
 
 const Navbar = () => {
@@ -15,26 +14,6 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState('#1f2937');
   const router = useRouter();
   const [logo, setLogoColor] = useState(logo_b);
-
-  useEffect(() => {
-    if (
-      router.asPath === '/products_wizard' ||
-      router.asPath === '/inventory' ||
-      router.asPath === '/isbn' ||
-      router.asPath === '/invoices' ||
-      router.asPath === '/learning_environment' ||
-      router.asPath === '/circuit' ||
-      router.asPath === '/portfolio'
-    ) {
-      setNavBg('transparent');
-      setLinkColor('#ecf0f3');
-      setLogoColor(logo_w);
-    } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
-      setLogoColor(logo_b);
-    }
-  }, [router]);
 
     const handleNav = () => {
         setNav(!nav);  {/* !nav will toggle the value true/false when function is called */}
