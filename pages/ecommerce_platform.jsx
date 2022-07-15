@@ -66,8 +66,10 @@ const ecommerce_platform = () => {
                     culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <Link href='/#projects'>
-                      <button className='underline cursor-pointer hover:animate-pulse'>back</button>
+                      <button className='underline cursor-pointer hover:animate-pulse'>back_nextjs</button>
                     </Link>
+                    <br />
+                    <a href='/#projects' className='underline cursor-pointer hover:animate-pulse'>back_html</a>
                 </div>
             </div>
         </div>
