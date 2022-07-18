@@ -64,9 +64,9 @@ const inventory = () => {
                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                     culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <Link href='/#projects'>
-                      <button className='underline cursor-pointer hover:animate-pulse'>back</button>
-                    </Link>
+                    <div>
+                      <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> {/* scroll={false} is required for anchor links to work correctly */}
+                    </div>
                 </div>
             </div>
         </div>
