@@ -70,6 +70,10 @@ const ecommerce_platform = () => {
                     </Link>
                     <br />
                     <a href='/#projects' className='underline cursor-pointer hover:animate-pulse'>back_html</a>
+                    <br />
+                    <div>
+                      <Link href='/#projects' scroll={false}><a>test</a></Link>
+                    </div>
                 </div>
             </div>
         </div>
