@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import webstore from '../public/assets/projects/webstore2.png'
 
+
 const ecommerce_platform = () => {
   return (
     <div id='test' className='w-full md:h-screen p-6 py-16'>
@@ -65,6 +66,9 @@ const ecommerce_platform = () => {
                   fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                   culpa qui officia deserunt mollit anim id est laborum.
                   </p>
+                  <div classname='py-4'>
+                  <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} />
+                  </div>
                   <div>
                     <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> {/* scroll={false} is required for anchor links to work correctly */}
                   </div>
