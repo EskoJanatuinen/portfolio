@@ -66,7 +66,7 @@ const ecommerce_platform = () => {
                   fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                   culpa qui officia deserunt mollit anim id est laborum.
                   </p>
-                  <div classname='py-4'>
+                  <div className='py-4'>
                   <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} />
                   </div>
                   <div>
