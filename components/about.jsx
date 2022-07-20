@@ -14,7 +14,7 @@ const About = () => {
           <h2 className='pt-4 pb-8'>Who I Am</h2>
 
           <p className='py-2 text-gray-600'>
-            I have spent last 7 years running and developing a unique online store selling 
+            I have spent the last 7 years running and developing a unique online store selling 
             second-hand items and environmental/circular economy services to consumers. 
             Selling used, one-of-the-kind items online is not a simple mission. Yet, 
             my team has achieved an average annual sales growth of 65 percent while maintaining profitability.
@@ -27,7 +27,7 @@ const About = () => {
           </p>
             
           <p className='py-2 text-gray-600'>
-            My background is in economics, but I know my way around technical solutions. In my current role, 
+            My academic background is in economics and business management, but I know my way around technical solutions also. In my current role, 
             I have led several large-scale software development projects. Recent examples include changing our 
             eCommerce platform from Magento to Nethit Omnisell and building our own customized tool for creating 
             new products to the product database.
