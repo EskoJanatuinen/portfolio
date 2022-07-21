@@ -8,7 +8,7 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='uppercase text-sm tracking-widest text-gray-600 sm:text-yellow-300 md:text-blue-800 lg:text-red-900 xl:text-blue-200'>
             LET&#39;S MAKE DIGITAL SALES GROW
           </p>
           <h1>
