@@ -13,12 +13,10 @@ const ecommerce_platform = () => {
                 <div className="p-6">
                     <h2 className='md:pt-10'>Introduction</h2>
                     <p className='py-8 text-gray-600'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
+                    At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
+                    continuing with that path. However, as we sell second-hand items, our workflow differs greatly from 
+                    the average online shop, and finding a well-suited platform is not an easy task.  
                     </p>
                 </div>
 
