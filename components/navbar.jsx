@@ -39,8 +39,8 @@ const Navbar = () => {
                 <a>
                     <div className='mt-2 hover:animate-pulse'>
                         <Image src={logo_b} alt='/' width='180' height='60' />
-            </div>
-            </a>
+                    </div>
+                </a>
             </Link>
         <div>
             <ul style={{ color: '#1f2937' }} className='hidden md:flex'>

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import productsWizard from '../public/assets/projects/newProducts_large.png';
 import Link from 'next/link';
 
 
@@ -24,7 +23,8 @@ const products_wizard = () => {
 
                 <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                      <Image src={productsWizard} className='rounded-lg md:rounded-full' alt='Drawn product pictures' title='New products wizard' />
+                      {/* <Image src={productsWizard} className='rounded-lg md:rounded-full' alt='Drawn product pictures' title='New products wizard' /> */}
+                      <Image src='/assets/projects/newProducts_large.svg' height={2500} width={2500} />
                     </div>
                 </div>
                 <div className="col-span-2 p-6 md:-mt-16">

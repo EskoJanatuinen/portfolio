@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link'
-import webstore from '../public/assets/projects/webstore2.png'
+import webstore from '../public/assets/projects/webstore3.png'
 
 
 const ecommerce_platform = () => {
