@@ -22,7 +22,7 @@ const About = () => {
 
           <p className='py-2 text-gray-600'>
             I have learned through first-hand experience what is essential in digital sales. 
-            From the grass-roots tasks like customer support or picking and packing orders to the concepts 
+            From the grassroots tasks like customer support or picking and packing orders to the concepts 
             like strategic planning, digital marketing, content creation and technical SEO.
           </p>
             
