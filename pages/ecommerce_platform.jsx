@@ -73,7 +73,7 @@ const ecommerce_platform = () => {
                 </p>
               </div>
             </div>
-              <div className='px-6 pt-6 pb-2 sm:pb-6'>
+              <div className='px-6 pt-6 sm:pb-10'>
                 <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
                 {/* scroll={false} is required for anchor links to work correctly */}
               </div>
