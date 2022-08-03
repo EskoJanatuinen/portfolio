@@ -44,14 +44,14 @@ const Projects = () => {
             title='ISBN Tool'
             backgroundImg={isbnTool}
             projectUrl='/isbn'
-            info='Python, SQL'
+            info=''
           />
 
           <ProjectItem
             title='Invoices Script'
             backgroundImg={invoiceReports}
             projectUrl='/invoices'
-            info='Python'
+            info=''
           />
 
           <ProjectItem
