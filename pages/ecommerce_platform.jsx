@@ -31,7 +31,7 @@ const ecommerce_platform = () => {
                         </a>
                     </div>
                 </div>
-                <div className="col-span-2 p-6 md:-mt-16">
+                <div className="col-span-2 p-6 lg:-mt-12">
                 <h2 className='py-4'>The Project</h2>
                   <p className='py-4 text-gray-600'>
                   Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
