@@ -16,7 +16,7 @@ const ecommerce_platform = () => {
                     In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
                     At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
                     continuing with that path. However, as we sell second-hand items, our workflow differs greatly from 
-                    the average online shop&#39;s, and finding a well-suited platform is not an easy task.  
+                    the average online shop&#39;s, and finding a well-suited platform can be difficult.
                     </p>
                     <p className='lg:pr-10 text-gray-600'>
                     I was responsible for documenting the technical requirements, reviewing suitable platform 
