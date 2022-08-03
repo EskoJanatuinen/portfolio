@@ -30,9 +30,9 @@ const ecommerce_platform = () => {
                 <div className="col-span-2 p-6 md:-mt-16">
                 <h2 className='py-4'>The Project</h2>
                   <p className='py-4 text-gray-600'>
-                  I was responsible for reviewing the suitable platform options, documenting the technical 
-                  requirements and organizing the competitive tenders. After a thorough evaluation process, 
-                  we chose Nethit Omnisell to be our next platform. 
+                  I was responsible for documenting the technical requirements, reviewing the suitable platform 
+                  options and organizing the competitive tenders. After a thorough evaluation process, we chose 
+                  Nethit Omnisell to be our next platform. 
                   </p>
                   <p className='text-gray-600'>
                   Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
