@@ -7,7 +7,7 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 
 const ecommerce_platform = () => {
   return (
-    <div id='test' className='w-full md:h-screen p-6 py-16'>
+    <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
         <div className='min-h-screen flex items-center justify-center'>
             <div className='md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]'>
                 <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>New eCommerce platform</h1></div>
