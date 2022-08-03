@@ -12,14 +12,18 @@ const ecommerce_platform = () => {
                 <div className="col-span-2 pt-10 md:pt-16 px-6 md:pb-14"><h1 className='py-4'>New eCommerce platform</h1></div>
                 <div className="p-6">
                     <h2 className='md:pt-10'>Introduction</h2>
-                    <p className='py-8 text-gray-600'>
+                    <p className='py-8 lg:pr-10 text-gray-600'>
                     In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
                     At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
                     continuing with that path. However, as we sell second-hand items, our workflow differs greatly from 
                     the average online shop&#39;s, and finding a well-suited platform is not an easy task.  
                     </p>
+                    <p className='lg:pr-10 text-gray-600'>
+                    I was responsible for documenting the technical requirements, reviewing the suitable platform 
+                    options and organizing the competitive tenders. After a thorough evaluation process, we chose 
+                    Nethit Omnisell to be our next platform. 
+                    </p>
                 </div>
-
                 <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                         <a href='https://kauppa.kierratyskeskus.fi/' target='_blank' rel='noreferrer noopener'>
@@ -30,11 +34,6 @@ const ecommerce_platform = () => {
                 <div className="col-span-2 p-6 md:-mt-16">
                 <h2 className='py-4'>The Project</h2>
                   <p className='py-4 text-gray-600'>
-                  I was responsible for documenting the technical requirements, reviewing the suitable platform 
-                  options and organizing the competitive tenders. After a thorough evaluation process, we chose 
-                  Nethit Omnisell to be our next platform. 
-                  </p>
-                  <p className='text-gray-600'>
                   Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
                   data out from the old database and into the new platform was complicated, since we had already 
                   more than 100 000 products at the time. Also, this was in 2020, when the covid pandemic became 
