@@ -30,28 +30,17 @@ const ecommerce_platform = () => {
                 <div className="col-span-2 p-6 md:-mt-16">
                 <h2 className='py-4'>The Project</h2>
                   <p className='py-4 text-gray-600'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                  culpa qui officia deserunt mollit anim id est laborum.
+                  I was responsible for reviewing the suitable platform options, documenting the technical 
+                  requirements and organizing the competitive tenders. After a thorough evaluation process, 
+                  we chose Nethit Omnisell to be our next platform. 
                   </p>
                   <p className='text-gray-600'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                  culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <p className='pt-4 text-gray-600'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                  culpa qui officia deserunt mollit anim id est laborum.
+                  Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
+                  data out from the old database and into the new platform was complicated, since we had already 
+                  more than 100 000 products at the time. Also, this was in 2020, when the covid pandemic went 
+                  global, and we were forced to close most of our operations. My team was reduced effectively to 
+                  me, one graphic designer and a copywriter. However, we were able to build the new platform in 
+                  about four months. The launch itself was successful, without any significant technical setbacks.
                   </p>
                 </div>
                 <div className="col-span-2 p-6">
