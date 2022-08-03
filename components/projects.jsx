@@ -41,7 +41,7 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='ISBN Tool'
+            title='ISBN Search'
             backgroundImg={isbnTool}
             projectUrl='/isbn'
             info=''
