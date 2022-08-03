@@ -37,7 +37,7 @@ const ecommerce_platform = () => {
                   <p className='pt-4 text-gray-600'>
                   Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
                   data out from the old database and into the new platform was complicated, since we had already 
-                  more than 100 000 products at the time. Also, this was in 2020, when the covid pandemic became 
+                  more than 100 000 products at the time. Also, this was in 2020, when the coronavirus pandemic became 
                   global, and we had to close down most of our operations. My team was effectively reduced to 
                   me, one graphic designer and a copywriter. However, we were able to build the new platform in 
                   about four months. The launch itself was successful, without any significant technical setbacks.
