@@ -61,7 +61,7 @@ const ecommerce_platform = () => {
                     <p className='font-bold pb-2'>Summary</p>
                     <div className='grid grid-cols-1'>
                       <p className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill className='pr-1' /> Positive impact on sales
+                        <RiRadioButtonFill className='pr-1' /> Significant positive impact on sales
                       </p>
                       <p className='text-gray-600 py-2 flex items-center'>
                         <RiRadioButtonFill className='pr-1' /> Average yearly sales growth: 47% &rarr; 93%
