@@ -58,7 +58,7 @@ const ecommerce_platform = () => {
             </div>
             <div className='col-span-2 pb-4 pl-8 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2'>Summary</p>
-              <div className='grid grid-cols-1'>
+
                 <p className='text-gray-600 py-2 flex items-center'>
                   <RiRadioButtonFill className='pr-1' /> Significant positive impact on sales
                 </p>
@@ -71,7 +71,7 @@ const ecommerce_platform = () => {
                 <p className='text-gray-600 py-2 flex items-center'>
                   <RiRadioButtonFill className='pr-1' /> Noticeable drop in traffic (recovered later)
                 </p>
-              </div>
+
             </div>
               <div className='px-6 pt-6 sm:pb-10'>
                 <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
