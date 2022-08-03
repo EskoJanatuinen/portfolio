@@ -45,12 +45,13 @@ const ecommerce_platform = () => {
                 </div>
                 <div className='px-6'>
                   <p className='text-gray-600'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                  culpa qui officia deserunt mollit anim id est laborum.
+                  Changing an eCommerce platform is always a risk, but so far, we have been satisfied with the results. 
+                  The impact on sales has been positive overall. Although, we did notice a significant drop in traffic, 
+                  despite all the measures taken to maintain the domain rankings (transferring all relevant content, 
+                  extensive redirects, SEO audits, etc.). At the same time, our conversion rate increased substantially, 
+                  resulting in better sales figures in general. 
+                  In just two years we have already sold more on the current 
+                  platform than we did in five years with Magento.
                   </p>
 
                   </div>
