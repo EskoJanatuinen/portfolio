@@ -58,20 +58,18 @@ const ecommerce_platform = () => {
             </div>
             <div className='col-span-2 pb-4 pl-8 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2'>Summary</p>
-
-                <p className='text-gray-600 py-2 flex items-center'>
-                  <RiRadioButtonFill className='pr-1' /> Significant positive impact on sales
-                </p>
-                <p className='text-gray-600 py-2 flex items-center'>
-                  <RiRadioButtonFill className='pr-1' /> Average yearly sales growth: 47% &rarr; 93%
-                </p>
-                <p className='text-gray-600 py-2 flex items-center'>
-                  <RiRadioButtonFill className='pr-1' /> Conversion rate up 1,3 percentage points
-                </p>
-                <p className='text-gray-600 py-2 flex items-center'>
-                  <RiRadioButtonFill className='pr-1' /> Noticeable drop in traffic (recovered later)
-                </p>
-
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Significant positive impact on sales
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Average yearly sales growth: 47% &rarr; 93%
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Conversion rate up 1,3 percentage points
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Noticeable drop in traffic (recovered later)
+              </p>
             </div>
               <div className='px-6 pt-6 sm:pb-10'>
                 <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
