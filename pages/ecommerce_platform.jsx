@@ -53,10 +53,11 @@ const ecommerce_platform = () => {
                   culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                   <div className='py-4'>
-                  <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} />
+                    <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} alt='Yearly sales chart' title='Sales growth during 2015-2021'/>
                   </div>
                   <div>
-                    <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> {/* scroll={false} is required for anchor links to work correctly */}
+                    <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
+                    {/* scroll={false} is required for anchor links to work correctly */}
                   </div>
                 </div>
             </div>
