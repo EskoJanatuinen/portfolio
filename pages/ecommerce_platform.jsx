@@ -12,7 +12,7 @@ const ecommerce_platform = () => {
             <div className='md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]'>
                 <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>New eCommerce platform</h1></div>
                 <div className='p-6'>
-                    <h2 className='md:pt-10'>Introduction</h2>
+                    <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
                     <p className='py-8 lg:pr-10 text-gray-600'>
                     In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
                     At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
@@ -25,7 +25,7 @@ const ecommerce_platform = () => {
                     Nethit Omnisell to be our next platform. 
                     </p>
                 </div>
-                <div className='col-start-2 px-6 pb-6 md:p-10 md:-m-10'>
+                <div className='col-start-2 px-6 pb-6 md:p-10 md:-m-8'>
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                         <a href='https://kauppa.kierratyskeskus.fi/' target='_blank' rel='noreferrer noopener'>
                           <Image src={webstore} className='rounded-lg md:rounded-full' alt='Webshop front page' title='Kierrätyskeskus online store' />
@@ -33,8 +33,8 @@ const ecommerce_platform = () => {
                     </div>
                 </div>
                 <div className='col-span-2 p-6 lg:-mt-12'>
-                <h2 className='py-4'>The Project</h2>
-                  <p className='pt-4 text-gray-600'>
+                <h2 className='py-4 md:pb-4'>The Project</h2>
+                  <p className='pt-8 text-gray-600'>
                   Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
                   data out from the old database and into the new platform was complicated, since we had already 
                   more than 100 000 products at the time. Also, this was in 2020, when the coronavirus pandemic became 
