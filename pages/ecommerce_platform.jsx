@@ -65,7 +65,7 @@ const ecommerce_platform = () => {
                 <RiRadioButtonFill className='pr-1' /> Average yearly sales growth: 47% &rarr; 93%
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Conversion rate up 1,3 percentage points
+                <RiRadioButtonFill className='pr-1' /> Conversion rate up 1.3 percentage points
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Noticeable drop in traffic (recovered later)
