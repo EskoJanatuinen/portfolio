@@ -19,7 +19,7 @@ const ecommerce_platform = () => {
                     the average online shop&#39;s, and finding a well-suited platform can be difficult.
                     </p>
                     <p className='lg:pr-10 text-gray-600'>
-                    I was responsible for documenting the technical requirements, reviewing suitable platform 
+                    I was responsible for documenting the technical requirements, reviewing potential platform 
                     options and organizing the competitive tenders. After a thorough evaluation process, we chose 
                     Nethit Omnisell to be our next platform. 
                     </p>
