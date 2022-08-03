@@ -23,42 +23,36 @@ const Projects = () => {
             title='eCommerce Platform'
             backgroundImg={webstore}
             projectUrl='/ecommerce_platform'
-            info=''
           />
 
           <ProjectItem
             title='Products Wizard'
             backgroundImg={productsWizard}
             projectUrl='/products_wizard'
-            info=''
           />
 
           <ProjectItem
             title='Inventory Tool'
             backgroundImg={inventoryTool}
             projectUrl='/inventory'
-            info=''
           />
 
           <ProjectItem
             title='ISBN Search'
             backgroundImg={isbnTool}
             projectUrl='/isbn'
-            info=''
           />
 
           <ProjectItem
             title='Invoices Script'
             backgroundImg={invoiceReports}
             projectUrl='/invoices'
-            info=''
           />
 
           <ProjectItem
             title='CIRCuIT Project'
             backgroundImg={circuit}
             projectUrl='/circuit'
-            info=''
           />
 
         </div>
