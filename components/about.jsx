@@ -5,7 +5,7 @@ import esko from '../public/assets/Esko_Janatuinen.png'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-6 sm:p-0 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-6 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2 py-4'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
