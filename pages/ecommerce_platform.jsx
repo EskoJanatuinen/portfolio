@@ -56,7 +56,7 @@ const ecommerce_platform = () => {
             <div className='col-start-2 flex items-start md:justify-center px-6 md:px-0 py-8 md:py-0'>
               <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} alt='Yearly sales chart' title='Yearly sales 2015-2021'/>
             </div>
-            <div className='col-span-2 pb-4 pl-8 md:mt-6 lg:mt-0 xl:-mt-10'>
+            <div className='col-span-2 pb-4 pl-6 sm:pl-8 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2'>Summary</p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Significant positive impact on sales
