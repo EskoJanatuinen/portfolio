@@ -5,10 +5,10 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
+    <div id='home' className='pt-2 sm:pt-0 w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
+          <p className='pb-2 sm:pb-0 uppercase text-sm tracking-widest text-gray-600'>
             LET&#39;S MAKE DIGITAL SALES GROW
           </p>
           <h1>
