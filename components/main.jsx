@@ -24,8 +24,8 @@ const Main = () => {
               rel='noreferrer noopener'
             >online store</a> 
               &nbsp;with my team. I strive to combine all my knowledge in digital sales, UI/UX design, logistics and (last but not least) 
-              human behavior to create the best possible customer experience online. I love data and like to play with it! 
-              My play tools include e.g. Python, SQL, GraphQL, PowerBI, and a curious mind with the ability to wonder. 🌹
+              human behavior to create the best possible customer experience online.<text className='hidden sm:inline'> I love data and like to play with it! 
+              My play tools include e.g. Python, SQL, GraphQL, PowerBI, and a curious mind with the ability to wonder.</text> 🌹
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
