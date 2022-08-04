@@ -12,7 +12,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Esko Janatuinen | eCommerce Professional</title>
-        <meta name="description" content="I’m running and developing a neat, eco-friendly and fast-growing online store with my team. I strive to combine all my knowledge in digital sales, UI/UX design, logistics and (last but not least) human behavior to create the best possible customer experience online." />
+        <meta name="description" content="Esko Janatuinen is an eCommerce professional running and developing a neat and eco-friendly online store." />
+        <meta name="keywords" content="eCommerce, SEO, Digital marketing" />
+        <meta name="author" content="Esko Janatuinen" />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />
