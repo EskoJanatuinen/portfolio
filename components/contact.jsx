@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const Contact = () => {
 
   return (
-    <div id='contact' className='w-full lg:h-screen px-6 flex align-middle py-16 md:py-0'>
+    <div id='contact' className='w-full h-screen px-6 flex align-middle py-16 md:py-0'>
       <div className='max-w-[800px] m-auto px-2 w-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5] flex justify-center'>
           Contact
