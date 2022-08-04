@@ -17,7 +17,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>That I&apos;ve worked on</h2>
-        <div className='select-none grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8'>
+        <div className='pt-4 md:pt-8 select-none grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8'>
           
           <ProjectItem
             title='eCommerce Platform'
@@ -32,12 +32,6 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='Inventory Tool'
-            backgroundImg={inventoryTool}
-            projectUrl='/inventory'
-          />
-
-          <ProjectItem
             title='ISBN Search'
             backgroundImg={isbnTool}
             projectUrl='/isbn'
@@ -47,12 +41,6 @@ const Projects = () => {
             title='Invoices Script'
             backgroundImg={invoiceReports}
             projectUrl='/invoices'
-          />
-
-          <ProjectItem
-            title='CIRCuIT Project'
-            backgroundImg={circuit}
-            projectUrl='/circuit'
           />
 
         </div>
