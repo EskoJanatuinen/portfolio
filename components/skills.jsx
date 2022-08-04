@@ -26,7 +26,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Google_seo} width='64px' height='64px' alt='Google logo' title='Search engine optimization'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>SEO</h3>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Google_analytics} width='64px' height='64px' alt='Google Analytics logo' title='Google Analytics'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>Google Analytics</h3>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={PowerBI} width='64px' height='64px' alt='PowerBI logo' title='PowerBI'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>PowerBI</h3>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Magento} width='64px' height='64px' alt='Magento logo' title='Magento'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>Magento</h3>
               </div>
             </div>
@@ -66,7 +66,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={SQL} width='64px' height='64px' alt='PostgreSQL logo' title='SQL'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>SQL</h3>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Python} width='64px' height='64px' alt='Python logo' title='Python'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>Python</h3>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='JavaScript logo' title='JavaScript'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>JavaScript</h3>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='HTML5 logo' title='HTML5'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>HTML</h3>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Css} width='64px' height='64px' alt='CSS3 logo' title='CSS3'/>
               </div>
-              <div className='flex flex-col items-center justify-center'>
+              <div className='pr-3 flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
               </div>
             </div>
