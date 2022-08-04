@@ -15,7 +15,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>That I&apos;ve worked on</h2>
-        <div className='pt-4 md:pt-8 select-none grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8'>
+        <div className='pt-4 md:pt-8 select-none grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-8'>
           
           <ProjectItem
             title='eCommerce Platform'
