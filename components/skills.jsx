@@ -20,7 +20,7 @@ const Skills = () => {
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
-        <div className='md:pt-4 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8'> 
+        <div className='md:pt-4 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-8'> 
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='pr-1 m-auto'>
@@ -36,7 +36,7 @@ const Skills = () => {
               <div className='pr-1 m-auto'>
                 <Image src={Google_analytics} width='64px' height='64px' alt='Google Analytics logo' title='Google Analytics'/>
               </div>
-              <div className='sm:pr-3 flex flex-col items-center justify-center'>
+              <div className='sm:pl-3 flex flex-col items-center justify-center'>
                 <h3>Google Analytics</h3>
               </div>
             </div>
