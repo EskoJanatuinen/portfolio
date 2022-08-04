@@ -1,10 +1,8 @@
 import React from 'react';
 import webstore from '../public/assets/projects/webstore.png'
 import productsWizard from '../public/assets/projects/NewProducts.png'
-import inventoryTool from '../public/assets/projects/inventoryTool.png'
 import isbnTool from '../public/assets/projects/ISBN_img.png'
 import invoiceReports from '../public/assets/projects/Invoices.png'
-import circuit from '../public/assets/projects/Circuit.png'
 import ProjectItem from './project_item';
 
 
