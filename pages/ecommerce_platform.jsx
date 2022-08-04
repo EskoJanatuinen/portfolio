@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link'
@@ -7,37 +8,44 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 
 const ecommerce_platform = () => {
   return (
-    <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
+    <div>
+      <Head>
+        <title>Esko Janatuinen | New eCommerce platform</title>
+        <meta name="description" content="Changing our eCommerce platform from Magento to Nethit" />
+        <meta name="keywords" content="eCommerce, SEO, Magento" />
+        <meta name="author" content="Esko Janatuinen" />
+      </Head>
+      <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
         <div className='min-h-screen flex items-center justify-center'>
           <div className='md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]'>
             <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>New eCommerce platform</h1></div>
             <div className='p-6'>
-                <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
-                <p className='py-8 lg:pr-10 text-gray-600'>
-                  In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
-                  At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
-                  continuing with that path. However, as we sell second-hand items, our workflow differs greatly from 
-                  the average online shop&#39;s, and finding a well-suited platform can be difficult.
-                </p>
-                <p className='lg:pr-10 text-gray-600'>
-                  I was responsible for documenting the technical requirements, reviewing potential platform 
-                  options and organizing the competitive tenders. After a thorough evaluation process, we chose 
-                  Nethit Omnisell to be our next platform. 
-                </p>
+              <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
+              <p className='py-8 lg:pr-10 text-gray-600'>
+                In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
+                At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
+                continuing with that path. However, as we sell second-hand items, our workflow differs greatly from 
+                the average online shop&#39;s, and finding a well-suited platform can be difficult.
+              </p>
+              <p className='lg:pr-10 text-gray-600'>
+                I was responsible for documenting the technical requirements, reviewing potential platform 
+                options and organizing the competitive tenders. After a thorough evaluation process, we chose 
+                Nethit Omnisell to be our next platform. 
+              </p>
             </div>
             <div className='col-start-2 px-6 pb-6 md:p-10 md:-m-8'>
-                <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <a href='https://kauppa.kierratyskeskus.fi/' target='_blank' rel='noreferrer noopener'>
-                      <Image src={webstore} className='rounded-lg md:rounded-full' 
-                        alt='Webshop front page' 
-                        title='Kierrätyskeskus online store' 
-                        priority 
-                      />
-                    </a>
-                </div>
+              <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                <a href='https://kauppa.kierratyskeskus.fi/' target='_blank' rel='noreferrer noopener'>
+                  <Image src={webstore} className='rounded-lg md:rounded-full' 
+                    alt='Webshop front page' 
+                    title='Kierrätyskeskus online store' 
+                    priority 
+                  />
+                </a>
+              </div>
             </div>
             <div className='col-span-2 p-6 lg:-mt-12'>
-            <h2 className='py-4 md:pb-4'>The Project</h2>
+              <h2 className='py-4 md:pb-4'>The Project</h2>
               <p className='pt-8 text-gray-600'>
                 Migrating from Magento to Nethit proved to be a challenging process. Just getting the product 
                 data out from the old database into the new platform was complicated, since we already had more 
@@ -79,8 +87,9 @@ const ecommerce_platform = () => {
                 <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
                 {/* scroll={false} is required for anchor links to work correctly */}
               </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
   );
 };
