@@ -23,7 +23,7 @@ const Skills = () => {
         <div className='md:pt-4 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8'> 
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Google_seo} width='64px' height='64px' alt='Google logo' title='Search engine optimization'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -33,7 +33,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Google_analytics} width='64px' height='64px' alt='Google Analytics logo' title='Google Analytics'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -43,7 +43,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={PowerBI} width='64px' height='64px' alt='PowerBI logo' title='PowerBI'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -53,7 +53,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Magento} width='64px' height='64px' alt='Magento logo' title='Magento'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -63,7 +63,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={SQL} width='64px' height='64px' alt='PostgreSQL logo' title='SQL'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -73,7 +73,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Python} width='64px' height='64px' alt='Python logo' title='Python'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -83,7 +83,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Javascript} width='64px' height='64px' alt='JavaScript logo' title='JavaScript'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -93,7 +93,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Html} width='64px' height='64px' alt='HTML5 logo' title='HTML5'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -103,7 +103,7 @@ const Skills = () => {
           </div>
           <div className='p-6 shadow-lg rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
+              <div className='pr-1 m-auto'>
                 <Image src={Css} width='64px' height='64px' alt='CSS3 logo' title='CSS3'/>
               </div>
               <div className='flex flex-col items-center justify-center'>
