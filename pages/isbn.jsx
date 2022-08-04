@@ -25,7 +25,11 @@ const isbn = () => {
                 <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                         <a href='https://github.com/EskoJanatuinen/isbn_search' target='_blank' rel='noreferrer noopener'>
-                          <Image src={isbn_img} className='rounded-lg' alt='ISBN code' title='ISBN search tool' />
+                          <Image src={isbn_img} className='rounded-lg' 
+                            alt='ISBN code' 
+                            title='ISBN search tool' 
+                            priority
+                          />
                         </a>
                     </div>
                 </div>

@@ -25,7 +25,11 @@ const invoices = () => {
                 <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl  md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                         <a href='https://github.com/EskoJanatuinen/invoice_reports' target='_blank' rel='noreferrer noopener'>
-                          <Image src={invoices_img} className='rounded-lg md:rounded-full' alt='Invoices logo' title='A script for processing invoices' />
+                          <Image src={invoices_img} className='rounded-lg md:rounded-full' 
+                            alt='Invoices logo' 
+                            title='A script for processing invoices' 
+                            priority
+                          />
                         </a>
                     </div>
                 </div>
