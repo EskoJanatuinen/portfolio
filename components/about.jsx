@@ -14,14 +14,14 @@ const About = () => {
           <h2 className='pt-4 pb-8'>Who I Am</h2>
 
           <p className='py-2 text-gray-600'>
-            I&#39;ve spent the last 7 years running a unique online store selling 
+            I have spent the last 7 years running a unique online store selling 
             second-hand items and environmental/circular economy services to consumers. 
             Selling used, one-of-the-kind items online is not a simple mission. Yet, 
             my team has achieved an average annual sales growth of 65 percent while maintaining profitability.
           </p>
 
           <p className='py-2 text-gray-600'>
-            I have learned through first-hand experience what is essential in digital sales. 
+            I&#39;ve learned through first-hand experience what is essential in digital sales. 
             From the grassroots tasks like customer support or picking and packing orders to the concepts 
             like strategic planning, digital marketing, content creation and technical SEO.
           </p>
