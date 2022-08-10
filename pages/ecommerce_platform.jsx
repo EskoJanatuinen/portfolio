@@ -66,7 +66,7 @@ const ecommerce_platform = () => {
               </p>
             </div>
             <div className='col-start-2 flex items-start md:justify-center px-6 md:px-0 py-8 md:py-0'>
-              <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} alt='Yearly sales chart' title='Yearly sales 2015-2021'/>
+              <Image src='/assets/projects/Sales_2015-2021.svg' height={296} width={400} alt='Annual sales chart' title='Annual sales 2015-2021'/>
             </div>
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2'>Summary</p>
@@ -74,7 +74,7 @@ const ecommerce_platform = () => {
                 <RiRadioButtonFill className='pr-1' /> Significant positive impact on sales
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Average yearly sales growth: 47% &rarr; 93%
+                <RiRadioButtonFill className='pr-1' /> Average annual sales growth: 47% &rarr; 93%
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Conversion rate up 1.3 percentage points
