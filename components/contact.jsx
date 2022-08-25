@@ -13,7 +13,7 @@ const Contact = () => {
         <h2 className='py-4 flex justify-center'>Get In Touch</h2>
         <p className='p-6 text-gray-600 sm:max-w-[70%] m-auto text-center md:text-lg'>
             Are you passionate about creating extraordinary online experiences? I&#39;d love to connect with you and share ideas on how to make digital sales
-            {/* With link, when screen atleast sm (640px) */}
+            {/* With link, when screen at least sm (640px) */}
             <span className='text-[#5651e5] animate-pulse hover:text-[green] hover:text-2xl hover:uppercase hover:font-extrabold hover:p-4 ease-in duration-500'>
               <a className='hidden sm:inline' href='https://www.linkedin.com/in/esko-janatuinen/' target='_blank' rel='noreferrer noopener'> grow!</a>
             </span>
