@@ -2,7 +2,8 @@
 
 A portfolio website built with Next.js and Tailwind.
 
-Following this awesome tutorial by <a href="https://github.com/fireclint/">fireclint</a>: https://www.youtube.com/watch?v=CMx51wpd7g4
+Following this awesome tutorial by <a href="https://github.com/fireclint/">fireclint</a>:
+https://www.youtube.com/watch?v=CMx51wpd7g4
 
 However, I
   - added some necessary "SEO stuff" 
