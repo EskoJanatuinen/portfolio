@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import isbnImg from '../public/assets/projects/ISBN_img.svg'
 
 
 const isbn = () => {
@@ -18,7 +19,7 @@ const isbn = () => {
                 <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
                     <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                         <a href='https://github.com/EskoJanatuinen/isbn_search' target='_blank' rel='noreferrer noopener' className='m-8'>
-                           <Image src='/assets/projects/ISBN_img.svg' height={444} width={600} alt='ISBN code' title='ISBN search tool' />
+                           <Image src={isbnImg} height={444} width={600} alt='ISBN code' title='ISBN search tool' />
                         </a>
                     </div>
                 </div>
