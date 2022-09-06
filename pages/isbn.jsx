@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
@@ -6,6 +7,13 @@ import isbnImg from '../public/assets/projects/ISBN_img.svg'
 
 const isbn = () => {
   return (
+    <div>
+    <Head>
+      <title>Esko Janatuinen | ISBN search tool</title>
+      <meta name="description" content="Building a Python script to optimize our process for listing books for sale." />
+      <meta name="keywords" content="eCommerce, Python, ISBN" />
+      <meta name="author" content="Esko Janatuinen" />
+    </Head>
     <div id='test' className='w-full md:h-screen p-6 py-16'>
         <div className="min-h-screen flex items-center justify-center">
             <div className="md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]">
@@ -30,6 +38,7 @@ const isbn = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   );
 };

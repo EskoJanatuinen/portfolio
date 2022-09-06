@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image';
 import React from 'react';
 import invoices_img from '../public/assets/projects/Invoices.png';
@@ -6,6 +7,13 @@ import Link from 'next/link';
 
 const invoices = () => {
   return (
+    <div>
+    <Head>
+      <title>Esko Janatuinen | Invoices script</title> 
+      <meta name="description" content="Building A Python script that processes invoices from our logistics providers." />
+      <meta name="keywords" content="eCommerce, Python, invoice automation" />
+      <meta name="author" content="Esko Janatuinen" />
+    </Head>
     <div id='test' className='w-full md:h-screen p-6 py-16'>
         <div className="min-h-screen flex items-center justify-center">
             <div className="md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]">
@@ -34,6 +42,7 @@ const invoices = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
@@ -5,6 +6,13 @@ import Link from 'next/link';
 
 const products_wizard = () => {
   return (
+    <div>
+      <Head>
+        <title>Esko Janatuinen | New products wizard</title>
+        <meta name="description" content="Building our own customized tool for listing new products online." />
+        <meta name="keywords" content="eCommerce" />
+        <meta name="author" content="Esko Janatuinen" />
+      </Head>
     <div id='test' className='w-full md:h-screen p-6 py-16'>
         <div className="min-h-screen flex items-center justify-center">
             <div className="md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]">
@@ -34,6 +42,7 @@ const products_wizard = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   );
 };

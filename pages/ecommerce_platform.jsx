@@ -11,7 +11,7 @@ const ecommerce_platform = () => {
     <div>
       <Head>
         <title>Esko Janatuinen | New eCommerce platform</title>
-        <meta name="description" content="Changing our eCommerce platform from Magento to Nethit" />
+        <meta name="description" content="Changing our eCommerce platform from Magento to Nethit." />
         <meta name="keywords" content="eCommerce, SEO, Magento" />
         <meta name="author" content="Esko Janatuinen" />
       </Head>
