@@ -12,12 +12,7 @@ const isbn = () => {
                 <div className="p-6">
                     <h2 className='md:pt-10'>Coming soon...</h2>
                     <p className='py-8 text-gray-600'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Coming soon...
                     </p>
                 </div>
                 <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
