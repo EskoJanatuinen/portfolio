@@ -1,7 +1,7 @@
 import React from 'react';
 import webstore from '../public/assets/projects/webstore.png'
 import productsWizard from '../public/assets/projects/NewProducts.png'
-import isbnTool from '../public/assets/projects/ISBN_img.png'
+import isbnTool from '../public/assets/projects/ISBN_img.svg'
 import invoiceReports from '../public/assets/projects/Invoices.png'
 import ProjectItem from './project_item';
 
