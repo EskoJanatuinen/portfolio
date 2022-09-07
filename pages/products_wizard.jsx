@@ -23,11 +23,12 @@ const products_wizard = () => {
               <p className='py-8 lg:pr-10 text-gray-600'>
                 Selling second-hand products online is challenging since there is only one piece of each product. The prerequisite 
                 for profitability is making the process for listing new products as fast and lean as possible. Especially given 
-                the lower selling prices on used items. The UIs for listing new products on eCommerce platforms aren’t generally 
-                optimized for speed, as it is not essential for ordinary online stores
+                the lower selling prices on used items.
               </p>
               <p className='lg:pr-10 text-gray-600'>
-                To overcome this deficiency, we decided to automate our process by building a customized tool for adding new products.
+                The UIs for listing new products on eCommerce platforms aren&#39;t generally optimized for speed, as it is not essential 
+                for ordinary online stores. To overcome this deficiency, we decided to automate our process by building a customized 
+                tool for adding new products.
               </p>
             </div>
             <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
