@@ -26,7 +26,7 @@ const products_wizard = () => {
                 the lower selling prices on used items.
               </p>
               <p className='lg:pr-10 text-gray-600'>
-                The UIs for listing new products on eCommerce platforms aren&#39;t generally optimized for speed, as it is not essential 
+                The user interfaces for listing new products on eCommerce platforms aren&#39;t generally optimized for speed, as it is not essential 
                 for ordinary online stores. To overcome this deficiency, we decided to automate our process by building a customized 
                 tool for adding new products.
               </p>
