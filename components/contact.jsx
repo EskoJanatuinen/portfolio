@@ -15,7 +15,12 @@ const Contact = () => {
             Are you passionate about creating extraordinary online experiences? I&#39;d love to connect with you and share ideas on how to make digital sales
             {/* With link, when screen at least sm (640px) */}
             <span className='text-[#5651e5] animate-pulse hover:text-[green] hover:text-2xl hover:uppercase hover:font-extrabold hover:p-4 ease-in duration-500'>
-              <a className='hidden sm:inline' href='https://www.linkedin.com/in/esko-janatuinen/' target='_blank' rel='noreferrer noopener'> grow!</a>
+              <a 
+                className='hidden sm:inline' 
+                href='https://www.linkedin.com/in/esko-janatuinen/'
+                aria-label="open LinkedIn" 
+                target='_blank' 
+                rel='noreferrer noopener'> grow!</a>
             </span>
             {/* Without link in mobile */}
             <span className='sm:hidden text-[#5651e5] animate-pulse hover:text-[green] hover:text-2xl hover:uppercase hover:font-extrabold hover:p-4 ease-in duration-500'> grow!</span>
@@ -23,6 +28,7 @@ const Contact = () => {
         <div className='flex items-end justify-center pt-6'>
           <a
             href='https://www.linkedin.com/in/esko-janatuinen/'
+            aria-label="open LinkedIn"
             target='_blank'
             rel='noreferrer noopener'
           >
@@ -32,6 +38,7 @@ const Contact = () => {
           </a>
           <a
             href='https://github.com/EskoJanatuinen'
+            aria-label="open GitHub"
             target='_blank'
             rel='noreferrer noopener'
           >
@@ -41,6 +48,7 @@ const Contact = () => {
           </a>
           <a
             href="mailto:esko.janatuinen@gmail.com"
+            aria-label="send email"
             target='_blank'
             rel='noreferrer noopener'
           >

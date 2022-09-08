@@ -131,6 +131,7 @@ const Navbar = () => {
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <a
                                 href='https://www.linkedin.com/in/esko-janatuinen/'
+                                aria-label="open LinkedIn"
                                 target='_blank'
                                 rel='noreferrer noopener'
                             >
@@ -140,6 +141,7 @@ const Navbar = () => {
                             </a>
                             <a
                                 href='https://github.com/EskoJanatuinen'
+                                aria-label="open GitHub"
                                 target='_blank'
                                 rel='noreferrer noopener'
                             >

@@ -30,6 +30,7 @@ const Main = () => {
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
               href='https://www.linkedin.com/in/esko-janatuinen/'
+              aria-label="open LinkedIn"
               target='_blank'
               rel='noreferrer noopener'
             >
@@ -38,7 +39,8 @@ const Main = () => {
               </div>
             </a>
             <a 
-              href='https://github.com/EskoJanatuinen' 
+              href='https://github.com/EskoJanatuinen'
+              aria-label="open GitHub" 
               target='_blank' rel="noreferrer">
               <div className='rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
