@@ -32,9 +32,8 @@ const products_wizard = () => {
               </p>
             </div>
             <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
-              <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                {/* <Image src={productsWizard} className='rounded-lg md:rounded-full' alt='Drawn product pictures' title='New products wizard' /> */}
-                <Image src='/assets/projects/newProducts_large.svg' 
+              <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center sm:p-4 hover:scale-105 ease-in duration-300'>
+                <Image src='/assets/projects/newProducts_optimized.svg' 
                   height={2500} 
                   width={2500}
                   alt='Drawn produt pictures' 
