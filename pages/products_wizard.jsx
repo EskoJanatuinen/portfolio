@@ -32,40 +32,40 @@ const products_wizard = () => {
               </p>
             </div>
             <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
-                    <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                      {/* <Image src={productsWizard} className='rounded-lg md:rounded-full' alt='Drawn product pictures' title='New products wizard' /> */}
-                      <Image src='/assets/projects/newProducts_large.svg' 
-                        height={2500} 
-                        width={2500}
-                        alt='Drawn produt pictures' 
-                        title='New products wizard'  
-                        priority 
-                      />
-                    </div>
-                    </div>
+              <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                {/* <Image src={productsWizard} className='rounded-lg md:rounded-full' alt='Drawn product pictures' title='New products wizard' /> */}
+                <Image src='/assets/projects/newProducts_large.svg' 
+                  height={2500} 
+                  width={2500}
+                  alt='Drawn produt pictures' 
+                  title='New products wizard'  
+                  priority 
+                />
+              </div>
+              </div>
             <div className='col-span-2 p-6 lg:-mt-12'>
               <h2 className='py-4 md:pb-4'>Coming soon...</h2>
               <p className='pt-8 text-gray-600 italic'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
             <div className='px-6'>
               <p className='text-gray-600 italic'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
             <div className='flex items-center justify-center px-6 md:-mt-6 md:mr-4'>
-                      <iframe src='https://player.vimeo.com/video/318711230' 
-                        title="A demo of our early prototype" 
-                        loading="lazy" 
-                        width="640" 
-                        height="360" 
-                        frameBorder="0" 
-                        allow="autoplay; fullscreen; picture-in-picture" 
-                        allowFullScreen
-                      >
-                      </iframe>
-                    </div>
+              <iframe src='https://player.vimeo.com/video/318711230' 
+                title="A demo of our early prototype" 
+                loading="lazy" 
+                width="640" 
+                height="360" 
+                frameBorder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                allowFullScreen
+              >
+              </iframe>
+            </div>
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2'>Summary</p>
               <p className='text-gray-600 py-2 flex items-center'>
@@ -78,10 +78,10 @@ const products_wizard = () => {
                 <RiRadioButtonFill className='pr-1' /> Coming soon...
               </p>
             </div>
-              <div className='px-6 pt-6 sm:pb-10'>
-                <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
-                {/* scroll={false} is required for anchor links to work correctly */}
-              </div>
+            <div className='px-6 pt-6 sm:pb-10'>
+              <Link href='/#projects' scroll={false}><a className='underline cursor-pointer hover:animate-pulse'>back</a></Link> 
+              {/* scroll={false} is required for anchor links to work correctly */}
+            </div>
           </div>
         </div>
       </div>
