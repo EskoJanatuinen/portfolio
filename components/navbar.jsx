@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import logo_b from '../public/assets/Esko_b_540x180.png';
+import logo_b from '../public/assets/Janatuinen_logo.svg';
 
 
 const Navbar = () => {
