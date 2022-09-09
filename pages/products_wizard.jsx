@@ -22,7 +22,7 @@ const products_wizard = () => {
               <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
                 Selling second-hand products online is challenging since there is only one piece of each product. The prerequisite 
-                for profitability is making the process for listing new products as fast and lean as possible. Especially given 
+                for success is making the process for listing new products as fast and lean as possible. Especially given 
                 the lower selling prices on used items.
               </p>
               <p className='lg:pr-10 text-gray-600'>
