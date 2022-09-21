@@ -55,6 +55,7 @@ const products_wizard = () => {
             </div>
             <div className='flex items-center justify-center px-6 md:-mt-6 md:mr-4'>
               <iframe src='https://player.vimeo.com/video/318711230' 
+                alt="A demo of our early prototype" 
                 title="A demo of our early prototype" 
                 loading="lazy" 
                 width="640" 
