@@ -30,7 +30,7 @@ const Projects = () => {
           <ProjectItem
             title='Coding projects'
             backgroundImg={coding}
-            projectUrl='/isbn'
+            projectUrl='/coding_projects'
           />
 
           <div className='invisible'>

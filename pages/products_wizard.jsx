@@ -40,7 +40,7 @@ const products_wizard = () => {
                   priority 
                 />
               </div>
-              </div>
+            </div>
             <div className='col-span-2 p-6 lg:-mt-12'>
               <h2 className='py-4 md:pb-4'>The Project</h2>
               <p className='pt-8 text-gray-600'>
