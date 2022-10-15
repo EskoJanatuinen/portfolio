@@ -1,10 +1,8 @@
 import React from 'react';
 import webstore from '../public/assets/projects/webstore.png'
 import productsWizard from '../public/assets/projects/NewProducts.png'
-import isbnTool from '../public/assets/projects/ISBN_img.svg'
-import invoiceReports from '../public/assets/projects/Invoices.png'
+import coding from '../public/assets/projects/Coding_projects.svg'
 import ProjectItem from './project_item';
-
 
 
 const Projects = () => {
@@ -31,14 +29,14 @@ const Projects = () => {
 
           <ProjectItem
             title='Coding projects'
-            backgroundImg={isbnTool}
+            backgroundImg={coding}
             projectUrl='/isbn'
           />
 
           <div className='invisible'>
             <ProjectItem
               title='Invoices Script'
-              backgroundImg={invoiceReports}
+              backgroundImg={coding}
               projectUrl='/invoices'
             />
           </div>
