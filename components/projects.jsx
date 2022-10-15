@@ -30,17 +30,19 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title='ISBN Search'
+            title='Coding projects'
             backgroundImg={isbnTool}
             projectUrl='/isbn'
           />
 
-          <ProjectItem
-            title='Invoices Script'
-            backgroundImg={invoiceReports}
-            projectUrl='/invoices'
-          />
-
+          <div className='invisible'>
+            <ProjectItem
+              title='Invoices Script'
+              backgroundImg={invoiceReports}
+              projectUrl='/invoices'
+            />
+          </div>
+               
         </div>
       </div>
     </div>
