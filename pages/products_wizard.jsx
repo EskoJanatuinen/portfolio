@@ -22,13 +22,12 @@ const products_wizard = () => {
               <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
                 Selling second-hand products online is challenging since there is only one piece of each product. The prerequisite 
-                for success is making the process for listing new products as fast and lean as possible. Especially given 
+                for success is making the process for listing new products as fast and lean as possible. Especially if you consider 
                 the lower selling prices on used items.
               </p>
               <p className='lg:pr-10 text-gray-600'>
                 The user interfaces for listing new products on eCommerce platforms aren&#39;t generally optimized for speed, as that is not essential 
-                for ordinary online stores. To overcome this deficiency, we decided to automate our process by building a customized 
-                tool for adding new products.
+                for regular online stores. To overcome this deficiency, we decided to build our own customized tool for adding new products.
               </p>
             </div>
             <div className="col-start-2 px-6 pb-6 md:p-10 md:-m-10">
@@ -43,14 +42,33 @@ const products_wizard = () => {
               </div>
               </div>
             <div className='col-span-2 p-6 lg:-mt-12'>
-              <h2 className='py-4 md:pb-4'>Coming soon...</h2>
-              <p className='pt-8 text-gray-600 italic'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h2 className='py-4 md:pb-4'>The Project</h2>
+              <p className='pt-8 text-gray-600'>
+              Before building a production ready application, we wanted to test our approach with a smaller-scale demo. This project was carried out 
+              in collaboration with&nbsp;
+                <a className='cursor-pointer underline hover:animate-pulse'
+                href='https://futurice.com/'
+                target='_blank'
+                rel='noreferrer noopener'
+                >Futurice
+                </a>
+              &nbsp;and a student group from Haaga-Helia. During this process, we carefully analyzed our workflow, listed various bottlenecks and looked 
+              for possible opportunities to automate tasks. At the end of four intensive sprints, we had produced a working prototype showing what our 
+              process for adding items could look like. You can read more on our demo project&nbsp; 
+                <a className='cursor-pointer underline hover:animate-pulse'
+                href='https://spiceprogram.org/chilicorn-fund/case-kierratyskeskus.html'
+                target='_blank'
+                rel='noreferrer noopener'
+                >here
+                </a>.        
               </p>
             </div>
             <div className='px-6'>
-              <p className='text-gray-600 italic'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p className='text-gray-600'>
+              Our current application, which is in production and integrated to our online store, was based on the ideas we tested with Futurice. However, 
+              our tool has more features and allows us, basically, to handle all our inventory management through it. The application has been vital for 
+              our fast growth and is still actively developed as we search for new ways to make our workflow more efficient. With the new products tool we 
+              have increased our products per day more than fivefold.
               </p>
             </div>
             <div className='flex items-center justify-center px-6 md:-mt-6 md:mr-4'>
@@ -69,13 +87,13 @@ const products_wizard = () => {
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2'>Summary</p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
+                <RiRadioButtonFill className='pr-1' /> Tested the ideas first with a demo
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
+                <RiRadioButtonFill className='pr-1' /> Increased products/day 5x
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coming soon...
+                <RiRadioButtonFill className='pr-1' /> A crucial driver for our growth
               </p>
             </div>
             <div className='px-6 pt-6 sm:pb-10'>
