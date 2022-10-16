@@ -15,6 +15,7 @@ export default function Home() {
         <meta name="description" content="Esko Janatuinen is an eCommerce professional running and developing a neat and eco-friendly online store." />
         <meta name="keywords" content="eCommerce, SEO, Digital marketing" />
         <meta name="author" content="Esko Janatuinen" />
+        <meta name="google-site-verification" content="Mupd1MaUXyqfW7XoNu_vGbN6dqvO621qRhHUWXdnvJ8" />
       </Head>
     <Main />
     <About />
