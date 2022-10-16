@@ -9,6 +9,7 @@ However, I
   - optimized loading speeds
   - improved mobile scaling
   - improved accessibility
+  - added OG tags
   - created my own (a bit more minimalistic) portfolio page design
   - replaced the contact form with my own (VERY minimalistic) layout
   - and had a little bit of fun here and there, like with the tailwind animation at the contact me page :)
