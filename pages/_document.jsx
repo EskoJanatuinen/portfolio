@@ -18,6 +18,9 @@ export default class CustomDocument extends Document {
                 <meta property="og:description" content="Ecommerce professional" />
                 <meta property="og:image" content="https://media-exp1.licdn.com/dms/image/C4D03AQFWI096DnzP4A/profile-displayphoto-shrink_400_400/0/1661289946138?e=1671667200&v=beta&t=HDlzDcfx1jfpE9_aDXpv_OydjTU0E01quxveRNVeaxE" />
                 <meta property="og:site_name" content="Esko Janatuinen" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Esko Janatuinen" />
+                <meta name="twitter:image" content="https://media-exp1.licdn.com/dms/image/C4D03AQFWI096DnzP4A/profile-displayphoto-shrink_400_400/0/1661289946138?e=1671667200&v=beta&t=HDlzDcfx1jfpE9_aDXpv_OydjTU0E01quxveRNVeaxE" />  
             </Head>
             <body>
                 <Main />
