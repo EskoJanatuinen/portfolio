@@ -21,7 +21,7 @@ const products_wizard = () => {
             <div className='p-6'>
               <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
-                Selling second-hand products online is challenging since there is only one piece of each product. The prerequisite 
+                Selling second-hand products online is challenging since each item is unique. The prerequisite 
                 for success is making the process for listing new products as fast and lean as possible. Especially if you consider 
                 the lower selling prices on used items.
               </p>
@@ -54,7 +54,8 @@ const products_wizard = () => {
                 </a>
               &nbsp;and a student group from Haaga-Helia. During this process, we carefully analyzed our workflow, listed various bottlenecks and looked 
               for possible opportunities to automate tasks. At the end of four intensive sprints, we had produced a working prototype showing what our 
-              process for adding items could look like. You can read more on our demo project&nbsp; 
+              process for adding items could look like. Our concept utilized templates with default values for different product types and handled product 
+              photos and measuring weight. You can read more about our demo project&nbsp; 
                 <a className='cursor-pointer underline hover:animate-pulse'
                 href='https://spiceprogram.org/chilicorn-fund/case-kierratyskeskus.html'
                 target='_blank'
