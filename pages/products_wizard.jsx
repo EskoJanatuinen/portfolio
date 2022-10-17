@@ -42,7 +42,7 @@ const products_wizard = () => {
               </div>
             </div>
             <div className='col-span-2 p-6 lg:-mt-12'>
-              <h2 className='py-4 md:pb-4'>The Project</h2>
+              <h2 className='py-4 md:pb-4'>The project</h2>
               <p className='pt-8 text-gray-600'>
               Before building a production-ready application, we wanted to test our approach with a smaller-scale demo. This project was carried out 
               in collaboration with&nbsp;
