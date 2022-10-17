@@ -15,7 +15,7 @@ const Main = () => {
           <div className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-[#5651e5]'> Esko</span></div>
           
-          <div className='py-2 text-gray-700'>An eCommerce Professional</div></h1>
+          <div className='py-2 text-gray-700'>An Ecommerce Professional</div></h1>
           <p className='p-6 text-gray-600 sm:max-w-[70%] m-auto'>
             I&#39;m running and developing a neat, eco-friendly and fast-growing&nbsp;
             <a className='cursor-pointer underline hover:animate-pulse'

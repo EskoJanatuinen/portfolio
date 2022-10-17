@@ -16,7 +16,7 @@ const Projects = () => {
         <div className='pt-4 md:pt-8 select-none grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-8'>
           
           <ProjectItem
-            title='eCommerce Platform'
+            title='Ecommerce Platform'
             backgroundImg={webstore}
             projectUrl='/ecommerce_platform'
           />

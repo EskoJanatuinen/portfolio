@@ -29,7 +29,7 @@ const About = () => {
           <p className='py-2 text-gray-600'>
             My academic background is in economics and business management, but I know my way around technical solutions also. In my current role, 
             I&#39;ve led several large-scale software development projects. Recent examples include changing our 
-            eCommerce platform from Magento to Nethit Omnisell and building our own customized tool for creating 
+            ecommerce platform from Magento to Nethit Omnisell and building our own customized tool for creating 
             new products to the product database.
           </p>
 

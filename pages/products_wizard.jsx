@@ -11,7 +11,7 @@ const products_wizard = () => {
       <Head>
         <title>Esko Janatuinen | New products wizard</title>
         <meta name="description" content="Building our own customized tool for listing new products online." />
-        <meta name="keywords" content="eCommerce" />
+        <meta name="keywords" content="Ecommerce" />
         <meta name="author" content="Esko Janatuinen" />
       </Head>
       <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
@@ -26,7 +26,7 @@ const products_wizard = () => {
                 the lower selling prices on used items.
               </p>
               <p className='lg:pr-10 text-gray-600'>
-                The user interfaces for listing new products on eCommerce platforms aren&#39;t generally optimized for speed, as that is not essential 
+                The user interfaces for listing new products on ecommerce platforms aren&#39;t generally optimized for speed, as that is not essential 
                 for regular online stores. To overcome this deficiency, we decided to build our own customized tool for adding new products.
               </p>
             </div>

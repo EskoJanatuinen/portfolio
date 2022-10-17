@@ -10,19 +10,19 @@ const ecommerce_platform = () => {
   return (
     <div>
       <Head>
-        <title>Esko Janatuinen | New eCommerce platform</title>
-        <meta name="description" content="Changing our eCommerce platform from Magento to Nethit." />
+        <title>Esko Janatuinen | New ecommerce platform</title>
+        <meta name="description" content="Changing our ecommerce platform from Magento to Nethit." />
         <meta name="keywords" content="eCommerce, SEO, Magento" />
         <meta name="author" content="Esko Janatuinen" />
       </Head>
       <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
         <div className='min-h-screen flex items-center justify-center'>
           <div className='md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]'>
-            <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>New eCommerce platform</h1></div>
+            <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>New ecommerce platform</h1></div>
             <div className='p-6'>
               <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
-                In 2020, the support for Magento 1 was ending, which meant we had to change our eCommerce platform. 
+                In 2020, the support for Magento 1 was ending, which meant we had to change our ecommerce platform. 
                 At the time, we had accumulated 5 years of experience in online sales, and it was clear that we were 
                 continuing on that path. However, as we sell second-hand items, our workflow differs greatly from 
                 the average online shop&#39;s, and finding a well-suited platform can be difficult.
@@ -57,7 +57,7 @@ const ecommerce_platform = () => {
             </div>
             <div className='px-6'>
               <p className='text-gray-600'>
-                Changing an eCommerce platform is always a risk, but so far, we have been satisfied with the results. 
+                Changing an ecommerce platform is always a risk, but so far, we have been satisfied with the results. 
                 The impact on sales has been positive overall. Although, we did notice a significant decrease in organic 
                 traffic, despite all the measures taken to maintain the domain rankings (transferring all relevant content, 
                 extensive redirects, SEO audits, etc.). At the same time, our conversion rate increased substantially, 

@@ -11,7 +11,7 @@ const coding_projects = () => {
     <Head>
       <title>Esko Janatuinen | Coding projects</title>
       <meta name="description" content="Building a Python script to optimize our process for listing books for sale." />
-      <meta name="keywords" content="eCommerce, Python, ISBN" />
+      <meta name="keywords" content="Ecommerce, Python, ISBN" />
       <meta name="author" content="Esko Janatuinen" />
     </Head>
     <div id='test' className='w-full md:h-screen p-6 py-16'>
