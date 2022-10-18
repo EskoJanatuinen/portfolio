@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import coding from '../public/assets/projects/Coding_projects.svg'
 import isbn_search from '../public/assets/projects/ISBN_search.png'
-import invoices from '../public/assets/projects/invoices.svg'
+import invoices from '../public/assets/projects/Invoices.svg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 
 
