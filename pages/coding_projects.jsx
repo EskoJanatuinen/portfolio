@@ -52,15 +52,15 @@ const coding_projects = () => {
                   <Image src={isbn_search} height={389} width={238} alt='Screenshot of an app scanning ISBNs' title='Inventory app for books'/>
                 </a>
               </div>
-              <div className='col-start-2 col-span-2 px-6 md:pr-16 lg:pr-16 lg:italic pt-2'>
+              <div className='col-start-2 col-span-2 px-6 md:pr-20 pt-2'>
                 <p className='text-gray-600'>
-                  As a reuse center, our job is to find a new home to the items we get as donations. To keep the prices reasonable, we must do this as 
-                  efficiently as possible. With books we often get more copies of certain books that we can sell. This is a problem especially in our 
-                  online store as we have a limited storage space available. To alleviate this problem, I created this program to determine the best 
+                  As a reuse center, our job is to find a new home for the items we get as donations. To keep the prices reasonable, we must do this 
+                  as efficiently as possible. With books, we often get more copies of certain books than we can sell. This is a problem particularly 
+                  in our online store as we have limited storage space available. To alleviate this problem, I created this program to optimize the 
                   sales channel for each book. It is written in Python and SQLite.
                   <br /><br />
                   The program allows scanning the book's ISBN to find out whether the book should go to the online store or physical store. This is 
-                  decided based on the online store's inventory balance for the book. The app also tells if the book needs a product photo or if we 
+                  decided based on the online store's inventory balance for the books with the same ISBN. The app also tells if the book needs a product photo or if we 
                   already have a photo for it. Additionally, the pricing history for the book is provided in case we have sold it before. Ultimately, 
                   this program saves up both time and inventory space.
                   <br /><br />
