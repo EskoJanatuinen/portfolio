@@ -9,7 +9,7 @@ const coding_projects = () => {
   return (
     <div>
     <Head>
-      <title>Esko Janatuinen | Coding projects</title>
+      <title>Esko Janatuinen | Coding projects (Coming soon...)</title>
       <meta name="description" content="Building a Python script to optimize our process for listing books for sale." />
       <meta name="keywords" content="Ecommerce, Python, ISBN" />
       <meta name="author" content="Esko Janatuinen" />
