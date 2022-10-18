@@ -43,8 +43,10 @@ const coding_projects = () => {
             </div>
             <h2 className='px-6 col-span-2 py-14 pt-20 md:pb-12'>Inventory app for books</h2>
             <div className='md:grid md:grid-cols-3 gap-4 col-span-2'>
-              <div className='px-12 pb-12'>
-              <Image src={isbn_search} height={389} width={238} alt='Screenshot of an app scanning ISBNs' title='Inventory app for books'/>
+              <div className='px-12 pb-12 hover:scale-105 ease-in duration-300'>
+                <a href='https://github.com/eskojanatuinen/books' target='_blank' rel='noreferrer noopener'>
+                  <Image src={isbn_search} height={389} width={238} alt='Screenshot of an app scanning ISBNs' title='Inventory app for books'/>
+                </a>
               </div>
               <div className='col-start-2 col-span-2 px-6 md:px-16'>
                 <p className='text-gray-600'>
@@ -77,8 +79,10 @@ const coding_projects = () => {
               >Code</a>
               </p>
             </div>
-            <div className='col-start-2 flex items-start md:justify-center px-6 md:px-0 py-8'>
-              <Image src={invoices} height={378} width={378} alt='Annual sales chart' title='Annual sales 2015-2021'/>
+            <div className='col-start-2 flex items-start md:justify-center px-6 md:px-0 py-8 hover:scale-105 ease-in duration-300'>
+              <a href='https://github.com/eskojanatuinen/invoice_reports' target='_blank' rel='noreferrer noopener'>
+                <Image src={invoices} height={378} width={378} alt='Image of an invoice' title='Automated invoices processing'/>
+              </a>
             </div>
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2 pt-20'>Summary</p>
