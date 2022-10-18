@@ -32,10 +32,10 @@ const coding_projects = () => {
             </div>
             <div className='col-start-2 px-6 pb-6 md:pb-20 md:p-10 md:-m-8'>
               <div className='w-full h-auto m-auto shadow-lg shadow-gray-400 rounded-xl md:rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <a href='https://kauppa.kierratyskeskus.fi/' target='_blank' rel='noreferrer noopener'>
+                <a href='https://github.com/eskojanatuinen' target='_blank' rel='noreferrer noopener'>
                     <Image src={coding} className='rounded-lg md:rounded-full' 
-                      alt='Webshop front page' 
-                      title='Kierrätyskeskus online store' 
+                      alt='Link to GitHub' 
+                      title='GitHub'
                       priority 
                     />
                 </a>
