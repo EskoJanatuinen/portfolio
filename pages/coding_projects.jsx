@@ -24,10 +24,10 @@ const coding_projects = () => {
             <div className='p-6'>
               <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
-              Here is a brief introduction to some of my coding projects. I am, by no means, a professional programmer, but I have studied coding for 
-              some years now, and I am excited for every opportunity, I get to use my skills at work. I am most familiar with Java as it was the first 
-              language we learned at the university courses. However, most of my work-related projects are written in Python, as it has excellent 
-              libraries for data manipulation. Naturally, SQL is also used a lot in my work.
+                Here is a brief introduction to some of my coding projects. I am, by no means, a professional programmer, but I have studied coding for 
+                a few years now ( in university and on my own), and I am excited about every opportunity I get to use my skills at work. I am most familiar 
+                with Java as it was the first language we learned in university. However, most of my work-related projects are written in Python, as it has 
+                excellent libraries for data manipulation. Naturally, SQL is also used a lot in my work.
               </p>
               <p className='lg:pr-10 text-gray-600 pb-6'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
