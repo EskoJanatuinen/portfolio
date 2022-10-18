@@ -22,7 +22,7 @@ const coding_projects = () => {
           <div className='md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]'>
             <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>Own coding projects</h1></div>
             <div className='p-6'>
-              <h2 className='md:pt-10 md:pb-4'>Introduction (Coming soon...)</h2>
+              <h2 className='md:pt-10 md:pb-4'>Introduction (Coming soon)</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
