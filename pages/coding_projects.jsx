@@ -20,7 +20,7 @@ const coding_projects = () => {
       <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
         <div className='min-h-screen flex items-center justify-center'>
           <div className='md:grid md:grid-cols-2 gap-4 w-full max-w-[1240px]'>
-            <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>Own coding projects (under construction)</h1></div>
+            <div className='col-span-2 pt-10 md:pt-16 px-6 md:pb-14'><h1 className='py-4'>Own coding projects</h1></div>
             <div className='p-6'>
               <h2 className='md:pt-10 md:pb-4'>Introduction</h2>
               <p className='py-8 lg:pr-10 text-gray-600'>
@@ -52,11 +52,17 @@ const coding_projects = () => {
                   <Image src={isbn_search} height={389} width={238} alt='Screenshot of an app scanning ISBNs' title='Inventory app for books'/>
                 </a>
               </div>
-              <div className='col-start-2 col-span-2 px-6 md:px-16'>
+              <div className='col-start-2 col-span-2 px-6 md:pr-16 lg:pr-16 lg:italic pt-2'>
                 <p className='text-gray-600'>
-                  1.1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  As a reuse center, our job is to find a new home to the items we get as donations. To keep the prices reasonable, we must do this as 
+                  efficiently as possible. With books we often get more copies of certain books that we can sell. This is a problem especially in our 
+                  online store as we have a limited storage space available. To alleviate this problem, I created this program to determine the best 
+                  sales channel for each book. It is written in Python and SQLite.
                   <br /><br />
-                  1.2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  The program allows scanning the book's ISBN to find out whether the book should go to the online store or physical store. This is 
+                  decided based on the online store's inventory balance for the book. The app also tells if the book needs a product photo or if we 
+                  already have a photo for it. Additionally, the pricing history for the book is provided in case we have sold it before. Ultimately, 
+                  this program saves up both time and inventory space.
                   <br /><br />
                   <text className='pl-4 pr-2'>&#8594;</text>
                   <a className='cursor-pointer underline hover:animate-pulse'
@@ -67,13 +73,13 @@ const coding_projects = () => {
                 </p>
               </div>
             </div>
-            <h2 className='px-6 col-span-2 pt-20 md:pt-20'>Automated invoices processing</h2>
+            <h2 className='px-6 col-span-2 pt-20 md:pt-20'>Automated invoices processing (Coming soon...)</h2>
             <div className='px-6 pt-4'>
               <p className='text-gray-600 py-8'>
-                2.1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <p className='text-gray-600 pb-6'>
-                2.2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               <br /><br />
               <text className='pl-4 pr-2'>&#8594;</text>
               <a className='cursor-pointer underline hover:animate-pulse'
@@ -89,7 +95,7 @@ const coding_projects = () => {
               </a>
             </div>
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
-              <p className='font-bold pb-2 pt-20'>Summary</p>
+              <p className='font-bold pb-2 pt-20'>Summary (Coming soon...)</p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Lorem ipsum dolor sit amet
               </p>
