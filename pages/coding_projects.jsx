@@ -59,8 +59,8 @@ const coding_projects = () => {
                   in our online store as we have limited storage space available. To alleviate this problem, I created this program to optimize the 
                   sales channel for each book. It is written in Python and SQLite.
                   <br /><br />
-                  The program allows scanning the book's ISBN to find out whether the book should go to the online store or physical store. This is 
-                  decided based on the online store's inventory balance for the books with the same ISBN. The app also tells if the book needs a product photo or if we 
+                  The program allows scanning the book&#39;s ISBN to find out whether the book should go to the online store or physical store. This is 
+                  decided based on the online store&#39;s inventory balance for the books with the same ISBN. The app also tells if the book needs a product photo or if we 
                   already have a photo for it. Additionally, the pricing history for the book is provided in case we have sold it before. Ultimately, 
                   this program saves up both time and inventory space.
                   <br /><br />
