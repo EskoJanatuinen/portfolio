@@ -107,7 +107,7 @@ const coding_projects = () => {
                 <RiRadioButtonFill className='pr-1' /> I&#39;m not professional coder
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Yet, I can solve "real-life" problems
+                <RiRadioButtonFill className='pr-1' /> Yet, I can solve real-world problems
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> And coding is fun!
