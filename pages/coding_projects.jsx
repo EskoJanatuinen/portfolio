@@ -14,7 +14,7 @@ const coding_projects = () => {
       <Head>
         <title>Esko Janatuinen | Coding projects</title>
         <meta name="description" content="Work-related coding projects." />
-        <meta name="keywords" content="Coding, Python, ISBN, Ecommerce" />
+        <meta name="keywords" content="Coding, Python, SQL, ISBN, Automation, Ecommerce" />
         <meta name="author" content="Esko Janatuinen" />
       </Head>
       <div id='test' className='w-full md:h-screen sm:p-6 py-16'>
@@ -56,13 +56,13 @@ const coding_projects = () => {
                 <p className='text-gray-600'>
                   As a reuse center, our job is to find a new home for the items we get as donations. To keep the prices reasonable, we must do this 
                   as efficiently as possible. With books, we often get more copies of certain books than we can sell. This is a problem particularly 
-                  in our online store where we have limited storage space available. To alleviate this problem, I created this program to optimize the 
+                  in our online store where we have limited storage space available. To reduce this problem, I created this program to optimize the 
                   sales channel for each book. It is written in Python and SQLite.
                   <br /><br />
-                  The program allows scanning the book&#39;s ISBN to find out whether the book should go to the online store or physical store. This is 
-                  decided based on the online store&#39;s inventory balance for the books with the same ISBN. The app also tells if the book needs a 
-                  product photo or if we already have a photo for it. Additionally, the pricing history is provided in case we have sold 
-                  the book before. Ultimately, this program saves up both time and inventory space for us.
+                  The program allows scanning the book&#39;s ISBN to find out whether the book should go to the online store or the physical store. 
+                  The decision is made based on how many books the online store already has with the same ISBN. The app also tells if the book needs 
+                  a product photo or if we already have a photo for it. Additionally, the pricing history is provided in case we have sold the book 
+                  before. Ultimately, this program saves up both time and inventory space for us.
                   <br /><br />
                   <text className='pl-4 pr-2'>&#8594;</text>
                   <a className='cursor-pointer underline hover:animate-pulse'
@@ -76,16 +76,16 @@ const coding_projects = () => {
             <h2 className='px-6 col-span-2 pt-20 md:pt-20'>Automated invoices processing</h2>
             <div className='px-6 pt-4'>
               <p className='text-gray-600 py-8'>
-                In Finland, there are quite a lot of operators in the second-hand market. However, most of those sellers are smaller and would not 
+                In Finland, there are quite a lot of operators in the second-hand market. However, most of the sellers are smaller and would not 
                 have the resources to build their own online store (not that many of them even wanted to). To promote the shared cause, we decided to 
-                open our online store for selected partners, who also sell second-hand or upcycled products.  However, this turned out to be challenging 
-                as our platform is not designed for multi-vendor purposes. One of the most complex and time-consuming tasks was to separate and allocate 
+                open our online store for selected partners, who also sell second-hand or upcycled products. However, this turned out to be challenging 
+                because our platform is not designed for multi-vendor purposes. One of the most complex and time-consuming tasks was to separate and allocate 
                 expenses to each seller. Notably, the invoices from our logistics providers were difficult to process since there was no breakdown by 
                 vendor available. 
               </p>
               <p className='text-gray-600 pb-6'>
-                I solved this problem by building a script that automated the processing of invoices from the logistics providers. The program matches 
-                the invoice data with the data from our orders database and produces a settlement report (Excel) as an output. The program is written 
+                I solved this problem by building a script that automates the processing of invoices from the logistics providers. The program matches 
+                the invoice data with the data from our orders database and generates a settlement report (Excel) as an output. The program is written 
                 in Python and utilizes GraphQL for data queries. JWT authentication was also needed in this project.
               <br /><br />
               <text className='pl-4 pr-2'>&#8594;</text>
