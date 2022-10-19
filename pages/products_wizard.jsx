@@ -66,7 +66,7 @@ const products_wizard = () => {
             </div>
             <div className='px-6'>
               <p className='text-gray-600'>
-              Our current application, which is into production and integrated to our online store, was based on the ideas we tested with Futurice. However, 
+              Our current application, which is in production and integrated into our online store, was based on the ideas we tested with Futurice. However, 
               our tool has more features and allows us to handle all our inventory management through it. The application has been vital for our fast growth 
               and is still actively developed as we search for new ways to make our workflow more efficient. With the new products tool, we have increased our 
               products per day more than fivefold.
