@@ -110,7 +110,7 @@ const coding_projects = () => {
                 <RiRadioButtonFill className='pr-1' /> Yet, I can solve real-world problems
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> And coding is fun!
+                <RiRadioButtonFill className='pr-1' /> Coding is fun!
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> P.S. this website is also coded by me!
