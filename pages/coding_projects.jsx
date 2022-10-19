@@ -104,7 +104,7 @@ const coding_projects = () => {
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
               <p className='font-bold pb-2 pt-20'>Summary</p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> I&#39;m not professional coder
+                <RiRadioButtonFill className='pr-1' /> Still learning programming
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Yet, I can solve real-world problems
