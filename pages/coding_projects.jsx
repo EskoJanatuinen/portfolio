@@ -61,8 +61,8 @@ const coding_projects = () => {
                   <br /><br />
                   The program allows scanning the book&#39;s ISBN to find out whether the book should go to the online store or physical store. This is 
                   decided based on the online store&#39;s inventory balance for the books with the same ISBN. The app also tells if the book needs a 
-                  product photo or if we already have a photo for it. Additionally, the pricing history for the book is provided in case we have sold 
-                  it before. Ultimately, this program saves up both time and inventory space.
+                  product photo or if we already have a photo for it. Additionally, the pricing history is provided in case we have sold 
+                  the book before. Ultimately, this program saves up both time and inventory space for us.
                   <br /><br />
                   <text className='pl-4 pr-2'>&#8594;</text>
                   <a className='cursor-pointer underline hover:animate-pulse'
