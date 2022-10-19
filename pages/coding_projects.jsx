@@ -85,8 +85,8 @@ const coding_projects = () => {
               </p>
               <p className='text-gray-600 pb-6'>
                 I solved this problem by building a script that automated the processing of invoices from the logistics providers. The program matches 
-                the invoice data with the data from our orders database and produces a settlement report as an output. The program is written in Python 
-                and utilizes GraphQL for data queries. JWT authentication was also needed in this project.
+                the invoice data with the data from our orders database and produces a settlement report (Excel) as an output. The program is written 
+                in Python and utilizes GraphQL for data queries. JWT authentication was also needed in this project.
               <br /><br />
               <text className='pl-4 pr-2'>&#8594;</text>
               <a className='cursor-pointer underline hover:animate-pulse'
