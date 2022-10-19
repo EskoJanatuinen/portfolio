@@ -54,7 +54,7 @@ const coding_projects = () => {
               </div>
               <div className='col-start-2 col-span-2 px-6 md:pr-20 pt-2'>
                 <p className='text-gray-600'>
-                  As a reuse center, our job is to find a new home for the items we get as donations. To keep the prices reasonable, we must do this 
+                  As a second-hand vendor, our job is to find a new home for the items we get for sale. To keep the prices reasonable, we must do this 
                   as efficiently as possible. With books, we often get more copies of certain books than we can sell. This is a problem particularly 
                   in our online store where we have limited storage space available. To reduce this problem, I created this program to optimize the 
                   sales channel for each book. It is written in Python and SQLite.
