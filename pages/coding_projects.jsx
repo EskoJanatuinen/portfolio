@@ -113,7 +113,7 @@ const coding_projects = () => {
                 <RiRadioButtonFill className='pr-1' /> And coding is fun!
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> ps. this website is also coded by me!
+                <RiRadioButtonFill className='pr-1' /> P.S. this website is also coded by me!
               </p>
             </div>
             <div className='px-6 pt-6 sm:pb-10'>
