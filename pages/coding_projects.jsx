@@ -56,13 +56,13 @@ const coding_projects = () => {
                 <p className='text-gray-600'>
                   As a reuse center, our job is to find a new home for the items we get as donations. To keep the prices reasonable, we must do this 
                   as efficiently as possible. With books, we often get more copies of certain books than we can sell. This is a problem particularly 
-                  in our online store as we have limited storage space available. To alleviate this problem, I created this program to optimize the 
+                  in our online store where we have limited storage space available. To alleviate this problem, I created this program to optimize the 
                   sales channel for each book. It is written in Python and SQLite.
                   <br /><br />
                   The program allows scanning the book&#39;s ISBN to find out whether the book should go to the online store or physical store. This is 
-                  decided based on the online store&#39;s inventory balance for the books with the same ISBN. The app also tells if the book needs a product photo or if we 
-                  already have a photo for it. Additionally, the pricing history for the book is provided in case we have sold it before. Ultimately, 
-                  this program saves up both time and inventory space.
+                  decided based on the online store&#39;s inventory balance for the books with the same ISBN. The app also tells if the book needs a 
+                  product photo or if we already have a photo for it. Additionally, the pricing history for the book is provided in case we have sold 
+                  it before. Ultimately, this program saves up both time and inventory space.
                   <br /><br />
                   <text className='pl-4 pr-2'>&#8594;</text>
                   <a className='cursor-pointer underline hover:animate-pulse'
