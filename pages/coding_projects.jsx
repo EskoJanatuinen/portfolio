@@ -76,10 +76,10 @@ const coding_projects = () => {
             <h2 className='px-6 col-span-2 pt-20 md:pt-20'>Automated invoices processing</h2>
             <div className='px-6 pt-4'>
               <p className='text-gray-600 py-8'>
-                In Finland, there are quite a lot of operators in the second-hand market. However, most of the sellers are smaller and would not 
-                have the resources to build their own online store (not that many of them even wanted to). To promote the shared cause, we decided to 
-                open our online store for selected partners, who also sell second-hand or upcycled products. However, this turned out to be challenging 
-                because our platform is not designed for multi-vendor purposes. One of the most complex and time-consuming tasks was to separate and allocate 
+                In Finland, there are quite a lot of operators in the second-hand market. However, most of the sellers are smaller and haven&#39;t got 
+                the resources to build their own online store (not that many of them even want to). To promote the shared cause, we decided to open our 
+                online store for selected partners, who also sell second-hand or upcycled products. However, this turned out to be challenging because 
+                our platform is not designed for multi-vendor purposes. One of the most complex and time-consuming tasks was to separate and allocate 
                 expenses to each seller. Notably, the invoices from our logistics providers were difficult to process since there was no breakdown by 
                 vendor available. 
               </p>
