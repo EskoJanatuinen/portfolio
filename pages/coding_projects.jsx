@@ -73,13 +73,20 @@ const coding_projects = () => {
                 </p>
               </div>
             </div>
-            <h2 className='px-6 col-span-2 pt-20 md:pt-20'>Automated invoices processing (Coming soon...)</h2>
+            <h2 className='px-6 col-span-2 pt-20 md:pt-20'>Automated invoices processing</h2>
             <div className='px-6 pt-4'>
               <p className='text-gray-600 py-8'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                In Finland, there are quite a lot of operators in the second-hand market. However, most of those sellers are smaller and would not 
+                have the resources to build their own online store (not that many of them even wanted to). To promote the shared cause, we decided to 
+                open our online store to selected partners, who also sell second-hand or upcycled products.  However, this turned out to be challenging 
+                as our platform is not designed for multi-vendor purposes. One of the most complex and time-consuming tasks was to separate and allocate 
+                expenses to each seller. Notably, the invoices from our logistics providers were difficult to process since there was no breakdown by 
+                vendor available. 
               </p>
               <p className='text-gray-600 pb-6'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I solved this problem by building a script that automated the processing of invoices from the logistics providers. The program matches 
+                the invoice data with the data from our orders database and produces a settlement report as an output. The program is written in Python 
+                and utilizes GraphQL for data queries. JWT authentication was also needed in this project.
               <br /><br />
               <text className='pl-4 pr-2'>&#8594;</text>
               <a className='cursor-pointer underline hover:animate-pulse'
