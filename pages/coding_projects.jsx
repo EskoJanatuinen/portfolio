@@ -31,7 +31,7 @@ const coding_projects = () => {
               </p>
               <p className='lg:pr-10 text-gray-600 pb-6'>
                 Learning the basics of programming has proved to be very useful in the software development projects I lead. It makes it easier to 
-                discuss with the coders and to understand the technical challenges related to the project. 
+                discuss with the coders and to understand the technical challenges related to the projects. 
               </p>
             </div>
             <div className='col-start-2 px-6 pb-6 md:pb-20 md:p-10 md:-m-8'>
