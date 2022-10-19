@@ -78,7 +78,7 @@ const coding_projects = () => {
               <p className='text-gray-600 py-8'>
                 In Finland, there are quite a lot of operators in the second-hand market. However, most of those sellers are smaller and would not 
                 have the resources to build their own online store (not that many of them even wanted to). To promote the shared cause, we decided to 
-                open our online store to selected partners, who also sell second-hand or upcycled products.  However, this turned out to be challenging 
+                open our online store for selected partners, who also sell second-hand or upcycled products.  However, this turned out to be challenging 
                 as our platform is not designed for multi-vendor purposes. One of the most complex and time-consuming tasks was to separate and allocate 
                 expenses to each seller. Notably, the invoices from our logistics providers were difficult to process since there was no breakdown by 
                 vendor available. 
@@ -102,18 +102,18 @@ const coding_projects = () => {
               </a>
             </div>
             <div className='col-span-2 pb-4 pl-6 sm:pl-10 md:mt-6 lg:mt-0 xl:-mt-10'>
-              <p className='font-bold pb-2 pt-20'>Summary (Coming soon...)</p>
+              <p className='font-bold pb-2 pt-20'>Summary</p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Lorem ipsum dolor sit amet
+                <RiRadioButtonFill className='pr-1' /> I'm not professional coder
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Lorem ipsum dolor sit amet
+                <RiRadioButtonFill className='pr-1' /> Yet, I can solve "real-life" problems
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Lorem ipsum dolor sit amet
+                <RiRadioButtonFill className='pr-1' /> And coding is fun!
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Lorem ipsum dolor sit amet
+                <RiRadioButtonFill className='pr-1' /> ps. this website is also coded by me!
               </p>
             </div>
             <div className='px-6 pt-6 sm:pb-10'>
