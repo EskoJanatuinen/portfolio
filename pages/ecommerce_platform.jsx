@@ -51,8 +51,9 @@ const ecommerce_platform = () => {
                 data out from the old database into the new platform was complicated, since we already had more 
                 than 100 000 products at the time. Also, this was in 2020, when the coronavirus pandemic became 
                 global, and we had to close down most of our operations. My project team was effectively reduced to 
-                me, one graphic designer and a copywriter. However, we were able to build the new platform in 
-                about four months. The launch itself was successful, without any significant technical setbacks.
+                me, one graphic designer, a copywriter and a marketing manager. However, we were able to build the 
+                new platform in about four months. The launch itself was successful, without any significant technical 
+                setbacks.
               </p>
             </div>
             <div className='px-6'>
